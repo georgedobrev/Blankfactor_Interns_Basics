@@ -1,11 +1,6 @@
 const FizzBuzz = (n) => {
-    let arr = [];
-    for (let i = 0; i <= n; i++) {
-
-        if (i == 0) {
-            continue;
-        }
-
+    const arr = [];
+    for (let i = 1; i <= n; i++) {
         if (i % 5 === 0 && i % 3 === 0) {
             arr.push("FizzBuzz")
         } else if (i % 5 === 0) {

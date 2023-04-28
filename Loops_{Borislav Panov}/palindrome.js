@@ -1,16 +1,11 @@
 const palindrome = (x) => {
-    let firstElement = String(x).charAt(0);
-    let lastIndex = String(x).length;
-    let lastElement  = String(x).charAt(lastIndex-1);
-    
-    
-    
-    if (firstElement == lastElement) {
-        return true;
-    } else {
-        return "not palindrome";
+    const arr = x.split('');
+    let arr2 = [];
+    for (let i = arr.length - 1; i >= 0; i--) {
+        arr2.push(arr[i]);
     }
+    return arr.join('') === arr2.join('');
 }
 
 
-console.log(palindrome('1231231'));
+console.log(palindrome('12121'));
