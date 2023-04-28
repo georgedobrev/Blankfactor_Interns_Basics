@@ -12,22 +12,22 @@ public class PrinterTask {
 
         Queue<Integer> tasks = new LinkedList<>();
 
-        push(tasks,paper,10);
+        push(tasks, paper, 10);
 
         System.out.println("Loaded paper and tasks:\npaper: " + paper);
         System.out.println("tasks: " + tasks + "\n");
 
         completeTasks(paper, tasks);
 
-        if(!tasks.isEmpty()) {
+        if (!tasks.isEmpty()) {
             System.out.println("Not completed tasks: " + tasks);
-        }else {
+        } else {
             System.out.println("No remaining tasks!");
         }
 
     }
 
-    private static void push(Queue<Integer> tasks,Stack paper, int amount) {
+    private static void push(Queue<Integer> tasks, Stack paper, int amount) {
         for (int i = 0; i < amount; ++i) {
 
             Random rand = new Random();
@@ -39,10 +39,11 @@ public class PrinterTask {
             tasks.add(randomNum2);
         }
     }
-    private static Queue<Integer> completeTasks(Stack paper, Queue<Integer> tasks ) {
+
+    private static Queue<Integer> completeTasks(Stack paper, Queue<Integer> tasks) {
 
         int strike = 0;
-        while ( strike <paper.size()) {
+        while (strike < paper.size()) {
             if (paper.lastElement() == tasks.element()) {
                 paper.pop();
                 tasks.remove();
