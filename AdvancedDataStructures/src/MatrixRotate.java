@@ -48,6 +48,5 @@ public class MatrixRotate {
                 a[j][n - 1 - i] = temp;
             }
         }
-
     }
 }
