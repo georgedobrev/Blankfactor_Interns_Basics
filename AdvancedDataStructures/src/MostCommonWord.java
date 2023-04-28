@@ -1,14 +1,16 @@
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
+
 
 public class MostCommonWord {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
         String str = input.nextLine();
+        System.out.println(mostCommonWord(str));
 
+    }
+
+    private static String mostCommonWord(String str){
         String[] words = str.split("\\W+");
 
         Map<String, Integer> namesCount = new HashMap<>();
@@ -23,6 +25,6 @@ public class MostCommonWord {
 
         String key = Collections.max(namesCount.entrySet(), Map.Entry.comparingByValue()).getKey();
 
-        System.out.print(key +": " + namesCount.get(key));
+        return key +": " + namesCount.get(key);
     }
 }
