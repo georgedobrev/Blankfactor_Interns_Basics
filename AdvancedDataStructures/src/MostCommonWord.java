@@ -15,16 +15,16 @@ public class MostCommonWord {
 
         Map<String, Integer> namesCount = new HashMap<>();
 
-        for (int i = 0; i <words.length ; i++) {
-            if(namesCount.containsKey(words[i])){
+        for (int i = 0; i < words.length; i++) {
+            if (namesCount.containsKey(words[i])) {
                 namesCount.put(words[i], namesCount.get(words[i]) + 1);
-            }else {
+            } else {
                 namesCount.put(words[i], 1);
             }
         }
 
         String key = Collections.max(namesCount.entrySet(), Map.Entry.comparingByValue()).getKey();
 
-        return key +": " + namesCount.get(key);
+        return key + ": " + namesCount.get(key);
     }
 }
