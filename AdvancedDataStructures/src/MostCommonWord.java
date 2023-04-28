@@ -10,7 +10,7 @@ public class MostCommonWord {
 
     }
 
-    private static String mostCommonWord(String str){
+    private static String mostCommonWord(String str) {
         String[] words = str.split("\\W+");
 
         Map<String, Integer> namesCount = new HashMap<>();

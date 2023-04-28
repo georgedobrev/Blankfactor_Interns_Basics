@@ -11,16 +11,13 @@ public class PairsOfNumbers {
     private static void pairs(int[] arr, int target) {
 
         HashMap<Integer, Integer> numbers = new HashMap<>();
-        
+
         for (int i = 0; i < arr.length; i++) {
             int check = target - arr[i];
             if (numbers.containsValue(check)) {
                 System.out.println(arr[i] + "," + check);
             }
             numbers.put(i, arr[i]);
-
         }
-
-
     }
 }
