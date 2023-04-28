@@ -3,7 +3,7 @@ import java.util.Queue;
 import java.util.Random;
 import java.util.Stack;
 
-public class Task1 {
+public class PrinterTask {
     public static void main(String[] args) {
 
         //Стака и Кю-то се попълват автоматично със случайно числа чрез метода push.

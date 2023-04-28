@@ -1,6 +1,6 @@
 import java.util.HashMap; // import the HashMap class
 
-public class Task2 {
+public class PhoneBookTask {
     public static void main(String[] args) {
         HashMap<Integer, String> phoneBook = new HashMap<Integer, String>();
 
