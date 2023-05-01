@@ -8,11 +8,7 @@ public class Printer
         int unfinishedTasks = 0;
 
         for (int i = 0; i < tasks.Length; i++)
-        {
-            if (papers[i] == tasks[i])
-            {
-                continue;
-            }
+        {          
 
             for (int j = i + 1; j < tasks.Length; j++)
             {
@@ -39,8 +35,8 @@ public class Program
 {
     static void Main(string[] args)
     {
-        int[] tasks = { 1, 1, 0, 1, 0, 1, 0, 1 };
-        int[] papers = { 1, 1, 0, 0, 1, 1, 0, 0 };
+        int[] tasks = { 1, 1, 0, 1, 0, 1, 0, 1 , 1};
+        int[] papers = { 1, 1, 0, 0, 1, 1, 0, 0, 1};
 
         int unfinishedTasks = Printer.CountUnfinishedTasks(tasks, papers);
 
