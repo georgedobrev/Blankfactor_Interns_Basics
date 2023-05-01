@@ -1,7 +1,7 @@
 ﻿using System;
 public class CheckTheSum
 {
-    public static int PetValue(string word)
+    public static int GetValue(string word)
     {
         int value = 0;
         for (int i = 0; i < word.Length; i++)
@@ -16,9 +16,9 @@ public class CheckTheSum
         string firstWord = "acb";
         string secondWord = "cba";
         string targetWord = "cdb";
-        var firstWordValue = CheckTheSum.getValue(firstWord);
-        var secondWordValue = CheckTheSum.getValue(secondWord);
-        var targetWordValue = CheckTheSum.getValue(targetWord);
+        var firstWordValue = CheckTheSum.GetValue(firstWord);
+        var secondWordValue = CheckTheSum.GetValue(secondWord);
+        var targetWordValue = CheckTheSum.GetValue(targetWord);
         var areEqual = (firstWordValue + secondWordValue) == targetWordValue;
         Console.WriteLine(areEqual);
     }
