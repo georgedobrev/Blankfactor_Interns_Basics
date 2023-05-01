@@ -11,15 +11,15 @@ namespace FixMergeString
 
             if (word1.Length > word2.Length)
             {
-                concat(word2, word1);
+                Concat(word2, word1);
             }
             else 
             {
-                concat(word1, word2);   
+                Concat(word1, word2);   
             }
         }
 
-        static void concat(string shorter, string longer)
+        static void Concat(string shorter, string longer)
         {
             int i;
             for (i = 0; i < shorter.Length; i++)
