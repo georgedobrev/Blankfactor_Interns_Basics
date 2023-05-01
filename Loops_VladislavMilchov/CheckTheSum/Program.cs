@@ -1,7 +1,7 @@
 ﻿using System;
 public class CheckTheSum
 {
-    public static int getValue(string word)
+    public static int PetValue(string word)
     {
         int value = 0;
         for (int i = 0; i < word.Length; i++)
