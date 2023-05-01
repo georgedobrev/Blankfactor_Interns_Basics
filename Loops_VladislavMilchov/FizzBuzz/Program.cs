@@ -8,31 +8,31 @@ for (int i = 1; i <= n; i++)
 	if (i % 3 == 0 && i % 5 == 0)
 	{
 
-		listFuzzBuzz.Add("FizzBuzz");
+		listFizzBuzz.Add("FizzBuzz");
 
 	}
 
 	else if (i % 3 == 0)
 	{
-        listFuzzBuzz.Add("Fizz");
+        listFizzBuzz.Add("Fizz");
 	}
 
     else if (i % 5 == 0)
     {
-        listFuzzBuzz.Add("Buzz");
+        listFizzBuzz.Add("Buzz");
     }
 
 	else
 	{
 		string num = i.ToString();
-        listFuzzBuzz.Add(num);
+        listFizzBuzz.Add(num);
     }
 
 	
 	
 };
 
-for (int i = 0; i < listFuzzBuzz.Count; i++)
+for (int i = 0; i < listFizzBuzz.Count; i++)
 {
 	Console.Write(listFuzzBuzz[i] + ", ");
 }
