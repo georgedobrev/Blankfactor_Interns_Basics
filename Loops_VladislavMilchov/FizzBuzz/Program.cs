@@ -34,5 +34,5 @@ for (int i = 1; i <= n; i++)
 
 for (int i = 0; i < listFizzBuzz.Count; i++)
 {
-	Console.Write(listFuzzBuzz[i] + ", ");
+	Console.Write(listFizzBuzz[i] + ", ");
 }
