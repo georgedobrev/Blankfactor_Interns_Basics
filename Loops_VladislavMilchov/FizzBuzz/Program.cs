@@ -1,7 +1,7 @@
 ﻿
 int n = 15;
 
-List<string> listFuzzBuzz = new List<string>();
+List<string> listFizzBuzz = new List<string>();
 
 for (int i = 1; i <= n; i++)
 {
