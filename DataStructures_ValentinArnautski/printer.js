@@ -1,21 +1,27 @@
 const countUnfinishedTasks = (tasks, papers) => {
-    let unfinished = 0;
-    let i = 0;
-  
-    while (i < tasks.length) {
-      if (tasks[i] === papers[0]) {
-        papers.shift();
-        tasks.splice(i, 1);
-      } else {
-        tasks.push(tasks.splice(i, 1)[0]);
-        unfinished++;
-      }
+
+    let counter = 0;
+    while(counter <= tasks.length && tasks.length) {
+        if(tasks[0] === papers[0]){
+            counter = 0;
+            tasks.shift();
+            papers.shift();
+        } else {
+            counter++;
+            let firstItem = tasks[0];
+            tasks.shift()
+            tasks.push(firstItem);
+        }
     }
-  
-    return `There was ${unfinished} unfinished tasks`;
+
+    if (counter > tasks.length) {
+        console.log(`There are ${tasks.length} uncompleted tasks`)
+    } else {
+        console.log("All tasks are printed")
+    }
 
   }
   
-  const arrayOfPaper = [1, 0, 1, 0, 0, 1, 1, 1];
-  const arrayOfTasks = [0, 1, 1, 0, 0, 1, 1, 1];
+  const arrayOfPaper = [1, 1, 0, 0];
+  const arrayOfTasks = [0, 1, 1, 0];
   console.log(countUnfinishedTasks(arrayOfTasks, arrayOfPaper));
