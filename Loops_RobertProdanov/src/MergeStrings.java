@@ -38,71 +38,24 @@ public class MergeStrings {
         return res;
     }
 
-
-
-
-
-
-
-
-
-
-
-
 }
 
-
-
-
-
-
-
 //2ro resheniee
-
-
 /*
-
-
-
-
-
 
 import java.util.Scanner;
 
-
-
-
-
-
 public class MergeStrings {
-
 
    public static void main(String[] args) {
 
-
-
-
-
-
        Scanner input = new Scanner(System.in);
-
-
-
-
-
 
        String s1 = input.nextLine();
 
-
        String s2 = input.nextLine();
 
-
-
-
-
-
        System.out.print(stringMerger(s1,s2));
-
 
    }
 
