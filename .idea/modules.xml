@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Blankfactor_Interns_Basics.iml" filepath="$PROJECT_DIR$/Blankfactor_Interns_Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Loops_PetkoLyutskanov/Loops_PetkoLyutskanov.iml" filepath="$PROJECT_DIR$/Loops_PetkoLyutskanov/Loops_PetkoLyutskanov.iml" />
+    </modules>
+  </component>
+</project>
