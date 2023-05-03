@@ -7,11 +7,14 @@ public class Car {
     private String model;
     private Engine engine;
     private Cargo cargo;
-    List<Tire> tires = new ArrayList<Tire>(4);
+    List<Tire> myTires = new ArrayList<Tire>(4);
 
-    Car(Engine engine, Cargo cargo, Tire tire) {
+    Car(String model, Engine engine, Cargo cargo, List<Tire> tires) {
 
-       engine = engine;
+        this.model = model;
+        this.engine = engine;
+        this.cargo = cargo;
+        this.myTires = tires;
 
     }
 }
