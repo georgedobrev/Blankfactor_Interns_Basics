@@ -1,5 +1,7 @@
 package CarsAndCargo;
 
+import java.util.Arrays;
+
 public class Car {
     private String model;
     private Engine engine;
@@ -40,5 +42,11 @@ public class Car {
     }
     public void setTires(Tire[] tires) {
         this.tires = tires;
+    }
+
+    @Override
+    public String toString() {
+        return "Car model: " + this.getModel() + " | Engine: " + this.getEngine().getPower() +
+                " horse power, " + this.getEngine().getSpeed() + " max speed | Cargo type: " + this.getCargo().getType();
     }
 }
