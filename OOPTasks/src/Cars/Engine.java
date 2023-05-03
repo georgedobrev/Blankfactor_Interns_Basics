@@ -2,8 +2,8 @@ package Cars;
 
 public class Engine {
 
-    int engineSpeed;
-    int enginePower;
+    private int engineSpeed;
+    private int enginePower;
 
     public Engine(int engineSpeed, int enginePower) {
         this.engineSpeed = engineSpeed;

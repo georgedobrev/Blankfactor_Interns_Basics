@@ -2,8 +2,8 @@ package Cars;
 
 public class Cargo {
 
-    int cargoWeight;
-    String cargoType;
+    private int cargoWeight;
+    private String cargoType;
 
     public Cargo(int cargoWeight, String cargoType) {
         this.cargoWeight = cargoWeight;

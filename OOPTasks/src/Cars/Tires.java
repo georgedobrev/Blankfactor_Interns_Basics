@@ -2,8 +2,8 @@ package Cars;
 
 public class Tires {
 
-    double tirePressure;
-    int tireAge;
+    private double tirePressure;
+    private int tireAge;
 
     public double getTirePressure() {
         return tirePressure;
