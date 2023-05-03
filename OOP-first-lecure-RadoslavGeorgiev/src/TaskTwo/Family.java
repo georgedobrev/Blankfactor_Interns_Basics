@@ -22,12 +22,12 @@ public class Family {
         this.members = members;
     }
 
-    public void getOldestMember() {
-        Person oldest = members.get(0);
-        for (int i = 1; i < members.size(); i++) {
-            if (members.get(i).getAge() > oldest.getAge()) {
-                oldest = members.get(i);
-
+    public void getOldestMember(Family personlist) {
+        Person oldest = personlist.getMembers().get(0);
+        for (int i = 1; i < personlist.getMembers().size(); i++) {
+            if (personlist.getMembers().get(i).getAge() > oldest.getAge()) {
+                oldest = personlist.getMembers().get(i);
+                System.out.println("The oldest member is " + oldest.getName() + " who is " + oldest.getAge() + " years old.");
             }
         }
 
