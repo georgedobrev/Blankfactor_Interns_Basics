@@ -4,24 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Student {
-    private static class Course {
-        private String name;
-
-        public Course() {
-        }
-
-        public Course(String name) {
-            this.name = name;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-    }
     private String name;
     private int age;
     private List<Course> courses;
