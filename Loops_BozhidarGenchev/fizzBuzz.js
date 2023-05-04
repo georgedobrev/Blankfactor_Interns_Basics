@@ -1,5 +1,5 @@
 function fizzBuzz(num) {
-    let finalArr = []
+    const finalArr = []
     for (let i = 1; i <= num; i++) {
         if (i % 3 === 0 && i % 5 !== 0) {
             finalArr.push('Fizz')
