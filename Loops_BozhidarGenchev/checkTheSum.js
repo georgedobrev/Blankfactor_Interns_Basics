@@ -1,26 +1,26 @@
 function checkSum (firstWord,secondWord,targetWord){
 
-let firstWordArr=firstWord.split('')
+const firstWordArr=firstWord.split('')
 
-let firstWordSum=firstWordArr.reduce((a,x)=>{
+const firstWordSum=firstWordArr.reduce((a,x)=>{
     if(x!=='a'){
         a+=x.charCodeAt()-97
     }
    return a;
    
 },0)
-let secondWordArr=secondWord.split('')
+const secondWordArr=secondWord.split('')
 
-let secondWordSum=secondWordArr.reduce((a,x)=>{
+const secondWordSum=secondWordArr.reduce((a,x)=>{
     if(x!=='a'){
         a+=x.charCodeAt()-97
     }
    return a;
 },0)
 
-let tergetWordArr=targetWord.split('')
+const tergetWordArr=targetWord.split('')
 
-let targetWordSum=tergetWordArr.reduce((a,x)=>{
+const targetWordSum=tergetWordArr.reduce((a,x)=>{
     if(x!=='a'){
         a+=x.charCodeAt()-97
     }
@@ -33,3 +33,18 @@ return firstWordSum+secondWordSum===targetWordSum;
 
 }
 console.log(checkSum("acb","cba","cdb"))
+
+//newSolutionWithArrowFunc
+const checkSum = (firstWord, secondWord, targetWord) => {
+  const charCodeSum = (str) => {
+    let sum = 0;
+    for (let i = 0; i < str.length; i++) {
+      if (str[i] !== 'a') {
+        sum += str[i].charCodeAt(0) - 97;
+      }
+    }
+    return sum;
+  }
+  return charCodeSum(firstWord) + charCodeSum(secondWord) === charCodeSum(targetWord);
+}
+console.log(checkSum("acb", "cba", "cdb"));
