@@ -50,10 +50,10 @@ public class CarTracking {
 
             if(cargoType.equals("fragile") && tire1Preassure < 1.0 && tire2Preassure < 1 && tire3Preassure < 1 && tire4Preassure < 1)
             {
-                System.out.println(car.toString());
+                System.out.println(car.getModel());
             } else if(cargoType.equals("flammable") && enginePower > 250)
             {
-                System.out.println(car.toString());
+                System.out.println(car.getModel());
             }
 
         }
