@@ -1,3 +1,5 @@
+package thirdTask_geneticTask;
+
 import java.util.ArrayList;
 import java.util.List;
 
