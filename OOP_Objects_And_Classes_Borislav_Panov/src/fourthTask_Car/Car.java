@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Car {
-        String model;
-        Engine engine;
-        Cargo cargo;
-        List<Tire> tires;
+        private String model;
+        private Engine engine;
+        private Cargo cargo;
+        private List<Tire> tires;
 
         public Car(String model, int engineSpeed, int enginePower, int cargoWeight, String cargoType,
                    double tire1Pressure, int tire1Age, double tire2Pressure, int tire2Age,
@@ -24,19 +24,21 @@ public class Car {
 
         public boolean isFragile() {
             for (Tire tire : tires) {
-                if (tire.pressure < 1) {
-                    return cargo.type.equals("fragile");
+                if (tire.getPressure() < 1) {
+                    return cargo.getCargoType().equals("fragile");
                 }
             }
             return false;
         }
 
         public boolean isFlammable() {
-            return engine.power > 250 && cargo.type.equals("flammable");
+            return engine.getPower() > 250 && cargo.getCargoType().equals("flammable");
         }
 
-        @Override
-        public String toString() {
-            return model;
-        }
+    @Override
+    public String toString() {
+        return "Model: " + model + ", Power: " + engine.getPower() + ", Speed: " + engine.getSpeed() +
+                ", Weight: " + cargo.getWeight() + ", Cargo Type: " + cargo.getCargoType();
+    }
+
 }
