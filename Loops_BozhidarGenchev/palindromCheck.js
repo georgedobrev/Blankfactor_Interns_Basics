@@ -1,6 +1,6 @@
-function palindromeCheck (x) {
+function palindromeCheck (palindrome) {
     
-if(x.toString()===x.toString().split('').reverse().join('')){
+if(palindrome.toString()===palindrome.toString().split('').reverse().join('')){
     return 'yes'
 }
     return 'no'
