@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 // Press ⇧ twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
-public class Main {
+public class PhoneBookMain {
     public static void main(String[] args) {
 
         ArrayList<String> phoneBook = new ArrayList<String>(
