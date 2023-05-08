@@ -76,30 +76,12 @@ public class Healer extends Entity implements HealerInterface{
     }
 
     @Override
-    public int attack() {
+    public void attack(Entity entity) {
         if(!isDefeated) {
-            return this.getDamage();
+           entity.setHealth(entity.getHealth()-this.getDamage());
         }else
             System.out.println("This Healer is defeated. He cant do damage!");
-        return 0;
     }
-
-    @Override
-    public void receiveDamage(int damage) {
-        this.setHealth(this.getHealth() - damage);
-
-        if (this.getArmour() >=(damage / 2)) {
-            this.setArmour(this.getArmour() - (damage / 2));
-        }
-
-        if(this.getHealth() <=0){
-            System.out.println(this.getName() + " is defeated");
-            this.setDefeated(true);
-        }
-
-    }
-
-
 
     @Override
     public void heal(Entity entity) {

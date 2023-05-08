@@ -1,7 +1,6 @@
 abstract class Entity {
 
-    public abstract int attack();
-    public abstract void receiveDamage(int damage);
+    public abstract void attack(Entity entity);
 
     public abstract void setHealth(int health);
 
