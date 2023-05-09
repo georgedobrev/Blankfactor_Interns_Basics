@@ -1,18 +1,20 @@
 class DateModifier {
-  constructor(date1, date2) {
-    this.date1 = new Date(date1);
-    this.date2 = new Date(date2);
-    this.diffDays = this.calculateDiff();
+  constructor() {
+    this.dateFormat = "YYYY-MM-DD";
+    this.diffDays = 0;
   }
 
-  calculateDiff() {
-    const diffTime = Math.abs(this.date2 - this.date1);
-    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+  calculate(date1, date2) {
+    const date1Obj = new Date(date1);
+    const date2Obj = new Date(date2);
 
-    return diffDays;
+    const timeDiff = Math.abs(date2Obj.getTime() - date1Obj.getTime());
+    this.diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+
+    return this.diffDays;
   }
 }
 
-const newDateDiff = new DateModifier('2023-05-01', '2023-05-03');
-console.log(newDateDiff.diffDays);
-  
+const modifier = new DateModifier();
+const daysDifference = modifier.calculate("2023-01-01", "2023-01-10");
+console.log(daysDifference);
