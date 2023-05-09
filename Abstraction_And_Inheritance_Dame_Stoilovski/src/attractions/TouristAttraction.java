@@ -5,7 +5,6 @@ public abstract class TouristAttraction {
     private final String address;
     private double rating;
     private final double guideBookPrice;
-    private double ticketPrice;
 
     public TouristAttraction(String name, String address, double rating, double guideBookPrice) {
         this.name = name;

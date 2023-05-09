@@ -51,4 +51,11 @@ public class Group implements TourGroup{
         expenses -= expenses * this.groupDiscount;
         return expenses;
     }
+
+    @Override
+    public String toString() {
+        return "The group is " + this.groupType + ", " + this.groupSize + " number of people. \n" +
+                "Total cost for the group to visit the " + this.attraction.getName() + " will be "
+                + this.groupExpenses() + " leva";
+    }
 }
