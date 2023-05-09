@@ -6,6 +6,4 @@ abstract class Entity {
 
     public abstract int getHealth();
 
-
-
 }
