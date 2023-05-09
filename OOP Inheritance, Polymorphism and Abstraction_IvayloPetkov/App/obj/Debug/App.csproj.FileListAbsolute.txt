@@ -1,0 +1,8 @@
+E:\C# Projects\Blankfactor\Blankfactor_Interns_Basics\OOP Inheritance, Polymorphism and Abstraction_IvayloPetkov\App\bin\Debug\App.exe.config
+E:\C# Projects\Blankfactor\Blankfactor_Interns_Basics\OOP Inheritance, Polymorphism and Abstraction_IvayloPetkov\App\bin\Debug\App.exe
+E:\C# Projects\Blankfactor\Blankfactor_Interns_Basics\OOP Inheritance, Polymorphism and Abstraction_IvayloPetkov\App\bin\Debug\App.pdb
+E:\C# Projects\Blankfactor\Blankfactor_Interns_Basics\OOP Inheritance, Polymorphism and Abstraction_IvayloPetkov\App\obj\Debug\App.csproj.AssemblyReference.cache
+E:\C# Projects\Blankfactor\Blankfactor_Interns_Basics\OOP Inheritance, Polymorphism and Abstraction_IvayloPetkov\App\obj\Debug\App.csproj.SuggestedBindingRedirects.cache
+E:\C# Projects\Blankfactor\Blankfactor_Interns_Basics\OOP Inheritance, Polymorphism and Abstraction_IvayloPetkov\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+E:\C# Projects\Blankfactor\Blankfactor_Interns_Basics\OOP Inheritance, Polymorphism and Abstraction_IvayloPetkov\App\obj\Debug\App.exe
+E:\C# Projects\Blankfactor\Blankfactor_Interns_Basics\OOP Inheritance, Polymorphism and Abstraction_IvayloPetkov\App\obj\Debug\App.pdb
