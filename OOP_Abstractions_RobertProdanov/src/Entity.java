@@ -8,6 +8,4 @@ abstract class Entity {
 
 
 
-
-
 }

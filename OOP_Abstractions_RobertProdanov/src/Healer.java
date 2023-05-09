@@ -1,4 +1,4 @@
-public class Healer extends Entity implements HealerInterface{
+public class Healer extends Entity implements HealerInterface {
 
     private String name;
     private int health;
@@ -77,27 +77,39 @@ public class Healer extends Entity implements HealerInterface{
 
     @Override
     public void attack(Entity entity) {
-        if(!isDefeated) {
-           entity.setHealth(entity.getHealth()-this.getDamage());
-        }else
+        if (!isDefeated) {
+            entity.setHealth(entity.getHealth() - this.getDamage());
+        } else
             System.out.println("This Healer is defeated. He cant do damage!");
     }
 
     @Override
     public void heal(Entity entity) {
-        if(!isDefeated) {
+        if (!isDefeated) {
             entity.setHealth(entity.getHealth() + this.getHealPoints());
-        }else
+        } else
             System.out.println("This Healer is defeated. He cant heal!");
 
     }
 
     @Override
     public void heavyHeal(Entity entity) {
-        if(!isDefeated) {
-            entity.setHealth(entity.getHealth() + this.getHealPoints()*2);
-        }else
-            System.out.println("This Healer is defeated. He cant heal!");
+        if (!isDefeated && this.getHeavyHealCounter() < 3) {
+            entity.setHealth(entity.getHealth() + this.getHealPoints() * 2);
+            this.setHeavyHealCounter(this.getHeavyHealCounter() + 1);
+        } else
+            System.out.println("The heavy heal cant be performed");
+    }
 
+    public String returnInfo() {
+        return "Healer{" +
+                "name='" + name + '\'' +
+                ", health=" + health +
+                ", armour=" + armour +
+                ", damage=" + damage +
+                ", healPoints=" + healPoints +
+                ", isDefeated=" + isDefeated +
+                ", heavyHealCounter=" + heavyHealCounter +
+                '}';
     }
 }

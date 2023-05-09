@@ -1,3 +1,3 @@
 public interface WarriorInterface {
-    public int heavyAttack();
+    public void heavyAttack(Entity entity);
 }

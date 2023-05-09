@@ -68,20 +68,30 @@ public class Warrior extends Entity implements WarriorInterface {
     @Override
     public void attack(Entity entity) {
 
-        if(!isDefeated) {
-            entity.setHealth(entity.getHealth()-this.getDamage());
-        }else
+        if (!isDefeated) {
+            entity.setHealth(entity.getHealth() - this.getDamage());
+        } else
             System.out.println("This Warrior is defeated. He cant do damage!");
     }
 
     @Override
-    public int heavyAttack() {
-        if(!isDefeated && this.getHeavyAttackCounter() <3) {
-            this.setHeavyAttackCounter(this.getHeavyAttackCounter()+1);
-            return this.getDamage()*2;
-        }else
-            System.out.println("This warrior is defeated. He cant do damage!");
-        return 0;
+    public void heavyAttack(Entity entity) {
+        if (!isDefeated && this.getHeavyAttackCounter() < 3) {
+            this.setHeavyAttackCounter(this.getHeavyAttackCounter() + 1);
+            entity.setHealth(entity.getHealth() + this.getDamage() * 2);
+        } else
+            System.out.println("The heavy attack cant be performed");
+    }
 
+
+    public String returnInfo() {
+        return "Warrior{" +
+                "name='" + name + '\'' +
+                ", health=" + health +
+                ", armour=" + armour +
+                ", damage=" + damage +
+                ", isDefeated=" + isDefeated +
+                ", heavyAttackCounter=" + heavyAttackCounter +
+                '}';
     }
 }
