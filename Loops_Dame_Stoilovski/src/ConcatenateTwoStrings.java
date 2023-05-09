@@ -4,8 +4,8 @@ public class ConcatenateTwoStrings {
     public String mergeTwoStrings(String firstString, String secondString) {
 
         ArrayList<Character> result = new ArrayList<>();
-
-        for (int i = 0; i < secondString.length(); i++) {
+        int shorterString = Math.min(firstString.length(), secondString.length());
+        for (int i = 0; i < shorterString; i++) {
             result.add(firstString.charAt(i));
             result.add(secondString.charAt(i));
         }
