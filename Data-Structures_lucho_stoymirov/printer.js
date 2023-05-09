@@ -9,7 +9,7 @@ function print(tasks, paper) {
             y.shift();
         } else {
             counter++;
-            let firstItem = x[0];
+            const firstItem = x[0];
             x.shift()
             x.push(firstItem);
         }
