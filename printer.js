@@ -1,25 +1,28 @@
-function print() {
-    let tasks = [0,1,0,1];
-    let paper = [1,1,1,1];
+function print(tasks, paper) {
+    let x = tasks;
+    let y = paper;
     let counter = 0;
-    while(counter <= tasks.length && tasks.length) {
-        if(tasks[0] === paper[0]){
+    while(counter <= x.length && x.length) {
+        if(x[0] === y[0]){
             counter = 0;
-            tasks.shift();
-            paper.shift();
+            x.shift();
+            y.shift();
         } else {
             counter++;
-            let firstItem = tasks[0];
-            tasks.shift()
-            tasks.push(firstItem);
+            let firstItem = x[0];
+            x.shift()
+            x.push(firstItem);
         }
     }
 
-    if (counter > tasks.length) {
-        console.log(tasks.length)
+    if (counter > x.length) {
+        console.log(x.length)
     } else {
         console.log("SUCCESS")
     }
 }
 
-print();
+let tasks = [1,1,0,1];
+let paper = [1,0,0,1];
+
+print(tasks, paper);
