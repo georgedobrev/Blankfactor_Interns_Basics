@@ -40,4 +40,9 @@ public class Museum extends TouristAttraction {
         return openingHours;
     }
 
+    public String getInfo(){
+        return "Entrance ticket price: " + getTicketPrice() + " leva.\n" +
+                "Guidance book price: " + getGuideBookPrice() + " leva.\n";
+    }
+
 }

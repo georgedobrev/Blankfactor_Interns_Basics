@@ -33,5 +33,9 @@ public class NationalPark extends TouristAttraction {
     public String getOpeningHours() {
         return openingHours;
     }
+    public String getInfo(){
+        return "Entrance ticket price: " + getTicketPrice() + " leva.\n" +
+                "Guidance book price: " + getGuideBookPrice() + " leva. \n";
+    }
 
 }

@@ -16,6 +16,6 @@ public class Individual implements IndividualTourist{
     @Override
     public String toString() {
         return "The total cost for a individual to visit the " + attraction.getName() +
-                " will be " + this.individualExpenses() + " leva";
+                " will be " + this.individualExpenses() + " leva. \n" + attraction.getInfo();
     }
 }

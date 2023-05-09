@@ -32,4 +32,8 @@ public class Cave extends TouristAttraction {
         this.ticketPrice = ticketPrice;
     }
 
+    public String getInfo(){
+        return "Entrance ticket price: " + getTicketPrice() + "\n" +
+                "Guidance book price: " + getGuideBookPrice();
+    }
 }

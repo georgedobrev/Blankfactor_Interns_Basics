@@ -43,4 +43,5 @@ public abstract class TouristAttraction {
     public abstract double getTicketPrice();
 
     public abstract void setOpeningHours(String openingHours);
+    public abstract String getInfo();
 }

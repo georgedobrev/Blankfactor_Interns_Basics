@@ -21,9 +21,9 @@ public class Group implements TourGroup{
     }
 
     public void setGroupDiscount() {
-        if (this.groupType.equals("Big")) {
+        if (this.groupType.equals("big")) {
             this.groupDiscount = 0.25;
-        } else if (this.groupType.equals("Medium")) {
+        } else if (this.groupType.equals("medium")) {
             this.groupDiscount = 0.15;
         } else {
             this.groupDiscount = 0.1;
@@ -37,11 +37,11 @@ public class Group implements TourGroup{
 
     public void setGroupType() {
         if (this.getGroupSize() > 50) {
-            this.groupType = "Big";
+            this.groupType = "big";
         } else if (this.groupSize > 20) {
-            this.groupType = "Medium";
+            this.groupType = "medium";
         } else {
-            this.groupType = "Small";
+            this.groupType = "small";
         }
     }
 
@@ -54,8 +54,8 @@ public class Group implements TourGroup{
 
     @Override
     public String toString() {
-        return "The group is " + this.groupType + ", " + this.groupSize + " number of people. \n" +
+        return "The group is " + this.groupType + ", " + this.groupSize + " number of people. " +
                 "Total cost for the group to visit the " + this.attraction.getName() + " will be "
-                + this.groupExpenses() + " leva";
+                + this.groupExpenses() + " leva.\n" + attraction.getInfo();
     }
 }

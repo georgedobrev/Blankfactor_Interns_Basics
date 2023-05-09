@@ -13,6 +13,6 @@ public class SpecialIndividual implements IndividualTourist {
     }
 
     public String toString() {
-        return "There are no cost for a special individual to visit the " + attraction.getName() + ".";
+        return "There are no cost for a special individual to visit the " + attraction.getName() + ".\n" + attraction.getInfo();
     }
 }

@@ -5,20 +5,8 @@ For this task you will have to create a small app that will have to contain the 
 2. At least 2 inheriting classes derived from the abstract
 3. At least 2 interfaces each implemented by any of the classes. Can be either or both, choice is yours.
 
-You can either meet the minimum or do more. This will not affect your scores, but the minimum requirements listed above should be met.
-The topic chosen is up to you. You will not be evaluated for realism but on the technical implementation. So do not worry if no one needs a goat petting app!
-The originality of the idea will also not be considered, so do not worry if it's nothing original.
 
-But here is a list of suggestions that you can consider if you're having a hard time coming up with a topic:
-1. A dispatcher app that handles delivery of mail and parcels within the city, country and abroad, or the travel destinations of transport trucks, or the loading of goods.
-2. An app that deals with crops and farmland.
 3. Tourism app that deals with sights, individual tourists and touring groups etc
-4. A multi-language dictionary
 
-The task description is deliberately vague. You will have to exercise coming up with ideas and designing the app.
-Think about what possibilities there are to reflect real world objects and concepts in code.
-
-Deadline is Wednesday. We have a long weekend so there should be enough time to complete the task.
-If you have any questions about any of it you can ping me on Slack.
-
-Have a good weekend.
+This mini-project calculates how much an individual or a group of people should pay for a single visit to a tourist attraction.
+The tourist attraction objects and individual/group objects should be created.
