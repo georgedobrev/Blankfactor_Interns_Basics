@@ -21,7 +21,7 @@ public class Main {
         h2.heavyHeal(w2);
         w2.attack(h1);
 
-        System.out.println("Heroes stats after 2 turns");
+        System.out.println("Heroes stats after 2 turns:\n");
         System.out.println(w1.returnInfo());
         System.out.println(h1.returnInfo());
         System.out.println(w2.returnInfo());
