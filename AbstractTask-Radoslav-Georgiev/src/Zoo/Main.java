@@ -12,5 +12,7 @@ public class Main {
         System.out.println(lion);
         System.out.println(elephant);
         System.out.println(snake);
+        System.out.println("Is the lion venomous  " + lion.isVenomous());
+        System.out.println("Is the snake venomous  " + snake.isVenomous());
     }
 }
