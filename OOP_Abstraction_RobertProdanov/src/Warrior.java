@@ -78,7 +78,7 @@ public class Warrior extends Entity implements WarriorInterface {
     public void heavyAttack(Entity entity) {
         if (!isDefeated && this.getHeavyAttackCounter() < 3) {
             this.setHeavyAttackCounter(this.getHeavyAttackCounter() + 1);
-            entity.setHealth(entity.getHealth() + this.getDamage() * 2);
+            entity.setHealth(entity.getHealth() - this.getDamage() * 2);
         } else
             System.out.println("The heavy attack cant be performed");
     }
