@@ -5,7 +5,7 @@ import java.util.Stack;
 
 public class Task1 {
     public static void main(String[] args) {
-/*
+
         Stack<Integer> paper = new Stack<>();
         paper.add(1);
         paper.add(1);
@@ -26,7 +26,7 @@ public class Task1 {
             {
                 paper.pop();
                 tasks.remove();
-                tasks.pull();
+                tasks.poll();
                 count = 0;
             } else
             {
@@ -35,31 +35,6 @@ public class Task1 {
             }
         }
         System.out.println(tasks.size());
-*/
-/*
-        List<Integer> papers = new LinkedList<>();
-        papers.add(0);
-        papers.add(0);
-        papers.add(0);
-        papers.add(0);
-        papers.add(0);
-        papers.add(0);
-        papers.add(0);
-        List<Integer> tasks = new LinkedList<>();
-        tasks.add(1);
-        tasks.add(1);
-        tasks.add(1);
-        tasks.add(1);
-        tasks.add(1);
-        tasks.add(1);
 
-        for (int i = 0; i < tasks.size(); i++) {
-            if(tasks.get(i) == papers.get(i))
-            {
-
-            }
-        }
-
-        */
     }
 }
