@@ -5,6 +5,8 @@ public class Main {
         RS3 audiRS3 = new RS3();
         A45AMG MercBenzA45AMG = new A45AMG();
         audiRS3.makeNoise();
+        audiRS3.speedOff();
         MercBenzA45AMG.makeNoise();
+        MercBenzA45AMG.breakDown();
     }
 }
