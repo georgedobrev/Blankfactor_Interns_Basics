@@ -1,7 +1,7 @@
 
-let mergeStrings = (x,y) => {
-  var word1 = x;
-  var word2 = y;
+const mergeStrings = (word1,word2) => {
+  word1;
+  word2;
   var mixed = '';
   const biggerNum = Math.max(word1.length, word2.length);
 

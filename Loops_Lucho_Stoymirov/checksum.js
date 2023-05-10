@@ -1,8 +1,8 @@
 
-let checkTargetWord = (x, y, z) => {
-    var firstWord = x;
-    var secondWord = y;
-    var targetWord = z;
+const checkTargetWord = (firstWord, secondWord, targetWord) => {
+    firstWord;
+    secondWord;
+    targetWord;
     var sum1 = null;
     var sum2 = null;
     var sum3 = null;
