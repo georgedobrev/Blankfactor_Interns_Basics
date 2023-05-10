@@ -1,22 +1,22 @@
-function print(tasks, paper) {
-    let x = tasks;
-    let y = paper;
+const print = (tasks, paper) => {
+    tasks;
+    paper;
     let counter = 0;
-    while(counter <= x.length && x.length) {
-        if(x[0] === y[0]){
+    while(counter <= tasks.length && tasks.length) {
+        if(tasks[0] === paper[0]){
             counter = 0;
-            x.shift();
-            y.shift();
+            tasks.shift();
+            paper.shift();
         } else {
             counter++;
-            const firstItem = x[0];
-            x.shift()
-            x.push(firstItem);
+            const firstItem = tasks[0];
+            tasks.shift()
+            tasks.push(firstItem);
         }
     }
 
-    if (counter > x.length) {
-        console.log(x.length)
+    if (counter > tasks.length) {
+        console.log(tasks.length)
     } else {
         console.log("SUCCESS")
     }
