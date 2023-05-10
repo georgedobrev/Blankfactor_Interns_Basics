@@ -1,6 +1,5 @@
 const print = (tasks, paper) => {
-    tasks;
-    paper;
+    
     let counter = 0;
     while(counter <= tasks.length && tasks.length) {
         if(tasks[0] === paper[0]){
