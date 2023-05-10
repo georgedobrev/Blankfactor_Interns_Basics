@@ -1,0 +1,15 @@
+/Users/Ivaylo.Petkov/Desktop/App/bin/Debug/net7.0/App
+/Users/Ivaylo.Petkov/Desktop/App/bin/Debug/net7.0/App.deps.json
+/Users/Ivaylo.Petkov/Desktop/App/bin/Debug/net7.0/App.runtimeconfig.json
+/Users/Ivaylo.Petkov/Desktop/App/bin/Debug/net7.0/App.dll
+/Users/Ivaylo.Petkov/Desktop/App/bin/Debug/net7.0/App.pdb
+/Users/Ivaylo.Petkov/Desktop/App/obj/Debug/net7.0/App.csproj.AssemblyReference.cache
+/Users/Ivaylo.Petkov/Desktop/App/obj/Debug/net7.0/App.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ivaylo.Petkov/Desktop/App/obj/Debug/net7.0/App.AssemblyInfoInputs.cache
+/Users/Ivaylo.Petkov/Desktop/App/obj/Debug/net7.0/App.AssemblyInfo.cs
+/Users/Ivaylo.Petkov/Desktop/App/obj/Debug/net7.0/App.csproj.CoreCompileInputs.cache
+/Users/Ivaylo.Petkov/Desktop/App/obj/Debug/net7.0/App.dll
+/Users/Ivaylo.Petkov/Desktop/App/obj/Debug/net7.0/refint/App.dll
+/Users/Ivaylo.Petkov/Desktop/App/obj/Debug/net7.0/App.pdb
+/Users/Ivaylo.Petkov/Desktop/App/obj/Debug/net7.0/App.genruntimeconfig.cache
+/Users/Ivaylo.Petkov/Desktop/App/obj/Debug/net7.0/ref/App.dll

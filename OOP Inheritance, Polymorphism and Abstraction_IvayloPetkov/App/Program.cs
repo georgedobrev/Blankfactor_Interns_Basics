@@ -88,8 +88,8 @@ namespace Application
         {
             Zoo zoo = new Zoo();
 
-            Lion lion = new Lion { Name = "Toshko", Age = 5, FurColor = "Golden"};
-            Zebra zebra = new Zebra { Name = "Krosko", Age = 2, colors = "Black and White"};
+            Lion lion = new Lion { Name = "Toshko", Age = 5, FurColor = "Golden" };
+            Zebra zebra = new Zebra { Name = "Krosko", Age = 2, colors = "Black and White" };
 
             zoo.AddAnimal(lion);
             zoo.AddAnimal(zebra);
