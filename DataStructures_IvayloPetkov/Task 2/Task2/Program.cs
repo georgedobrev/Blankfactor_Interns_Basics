@@ -4,39 +4,39 @@ namespace Application
 {
     class Program
     {
-        static void phone_book()
+        static void PhoneBook()
         {
-            string phones = "";
-            List<string> phoneNumbers = new List<string>();
+            string Phones = "";
+            List<string> PhoneNumbers = new List<string>();
 
             Console.WriteLine("Enter phone numbers (empty line to stop):");
-            string phoneNumber = Console.ReadLine().Trim();
-            while (phoneNumber != "")
+            string PhoneNumber = Console.ReadLine().Trim();
+            while (PhoneNumber != "")
             {
-                phoneNumbers.Add(phoneNumber);
-                phoneNumber = Console.ReadLine().Trim();
+                PhoneNumbers.Add(phoneNumber);
+                PhoneNumber = Console.ReadLine().Trim();
             }
 
-            phoneNumbers.Insert(3, "+359 83 74 84 84");
+            PhoneNumbers.Insert(3, "+359 83 74 84 84");
 
             Console.WriteLine("\nPhone book:");
-            foreach (string number in phoneNumbers)
+            foreach (string Number in PhoneNumbers)
             {
-                Console.WriteLine(number);
+                Console.WriteLine(Number);
             }
 
-            phoneNumbers.RemoveAt(2);
+            PhoneNumbers.RemoveAt(2);
 
             Console.WriteLine("\nPhone book after removing a phone number:");
-            foreach (string number in phoneNumbers)
+            foreach (string Number in PhoneNumbers)
             {
-                Console.WriteLine(number);
+                Console.WriteLine(Number);
             }
         }
 
     static void Main(string[] args)
         {
-            phone_book();
+            PhoneBook();
         }
     }
 }
