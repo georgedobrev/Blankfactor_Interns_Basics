@@ -1,6 +1,5 @@
 
 const checkPalindrome = number => {
-    number;
     const numText = String(number);
     const size = numText.length;
     for (var i = 0; i < size / 2; i++){

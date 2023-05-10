@@ -1,9 +1,8 @@
 
 
-let fizzBuzz = number =>{
-    var x = number;
+const fizzBuzz = number =>{
     var result = [];
-    for (var i = 1; i <= x; i++) {
+    for (var i = 1; i <=  number; i++) {
         if (i % 3 ==0 && i % 5 != 0) {
             result.push("Fizz");
         } else if (i % 5 ==0 && i % 3 != 0) {
