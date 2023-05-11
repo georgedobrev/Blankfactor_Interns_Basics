@@ -1,19 +1,19 @@
 function countUnfinishedTasks(tasks, papers) {
   let unfinishedTasks = 0;
-  let availablePaper = null;
+  let remainingPapers = [...papers]; 
 
   for (let i = 0; i < tasks.length; i++) {
     const taskPaper = tasks[i];
 
     
-    if (availablePaper === null || taskPaper === availablePaper) {
-      availablePaper = papers[i];
-    } 
-    
-    else {
+    const availableIndex = remainingPapers.indexOf(taskPaper);
+    if (availableIndex !== -1) {
+      remainingPapers.splice(availableIndex, 1); 
+    } else {
       unfinishedTasks++;
     }
   }
 
   return unfinishedTasks;
 }
+
