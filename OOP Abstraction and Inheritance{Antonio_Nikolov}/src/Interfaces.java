@@ -1,9 +1,9 @@
-interface Engine {
+interface Machine {
     void startEngine();
     void stopEngine();
 }
 
-interface Radio {
+interface AudioSystem {
     void playMusic();
     void stopMusic();
 }

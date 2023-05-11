@@ -1,4 +1,4 @@
-class Car extends Vehicle implements Engine, Radio {
+class Car extends Vehicle implements Machine {
     public Car(String brand) {
         super(brand);
     }
@@ -23,12 +23,12 @@ class Car extends Vehicle implements Engine, Radio {
         System.out.println("Stopping engine of car " + brand);
     }
 
-    @Override
+
     public void playMusic() {
         System.out.println("Playing music in car " + brand);
     }
 
-    @Override
+
     public void stopMusic() {
         System.out.println("Stopping music in car " + brand);
     }

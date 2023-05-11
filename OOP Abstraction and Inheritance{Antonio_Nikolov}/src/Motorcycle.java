@@ -1,4 +1,4 @@
-class Motorcycle extends Vehicle implements Engine {
+class Motorcycle extends Vehicle implements Machine {
     public Motorcycle(String brand) {
         super(brand);
     }
