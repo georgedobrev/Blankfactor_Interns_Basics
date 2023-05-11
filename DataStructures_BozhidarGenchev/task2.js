@@ -82,19 +82,6 @@ class PhoneBook {
     this.size--;
   }
 
-  get(index) {
-    if (index < 0 || index >= this.size) {
-      throw new Error('Index out of range');
-    }
-
-    let current = this.head;
-    let i = 0;
-    while (i < index) {
-      current = current.next;
-      i++;
-    }
-    return current.data;
-  }
 
   print() {
     let current = this.head;
@@ -106,7 +93,7 @@ class PhoneBook {
 }
 
 
-let phoneBook = new PhoneBook();
+const phoneBook = new PhoneBook();
 
 
 phoneBook.add('+1 555-1234');
