@@ -1,32 +1,48 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Printer {
+
+public class Main {
+
     public static void main(String[] args) {
-        int[] tasks = {0, 1, 0, 1, 1};
-        int[] papers = {0, 1, 1, 0, 1};
-
-        int unableToPrint = unableToFinish(tasks, papers);
-
-        System.out.println("Number of unfinished tasks: " + unableToPrint);
+        int[] tasks = {1,1,1};
+        int[] papers = {1,0,0};
+        int leftTasks = notFinishedTasks(tasks, papers);
+        System.out.println("tasks left " + leftTasks);
     }
+    public static int notFinishedTasks(int[] tasks, int[] papers) {
+        Queue<Integer> printer = new LinkedList<>();
+        Queue<Integer> taskQueue = new LinkedList<>();
+        int numUnfinishedTasks = 0;
 
-    public static int unableToFinish(int[] tasks, int[] papers) {
-        int n = tasks.length;
-        Queue<Integer> paperAvailable = new LinkedList<>();
-        int unableToPrint = 0;
-
-        for (int i = 0; i < n; i++) {
-            int taskPaper = tasks[i];
-
-            if (paperAvailable.contains(taskPaper)) {
-                paperAvailable.remove(taskPaper);
-            } else {
-                paperAvailable.add(papers[i]);
-                unableToPrint++;
-            }
+        int t;
+        int p;
+        for (t = 0; t < tasks.length; t++) {
+            taskQueue.add(tasks[t]);
         }
 
-        return unableToPrint;
+        for (p = 0; p < papers.length; p++) {
+            printer.add(papers[p]);
+
+        }
+
+
+
+        while (taskQueue.size() > 0 && numUnfinishedTasks <= printer.size()) {
+
+            if (taskQueue.peek() == printer.peek()) {
+                taskQueue.poll();
+                printer.poll();
+                numUnfinishedTasks = 0;
+            }else{
+                taskQueue.offer(taskQueue.poll());
+                numUnfinishedTasks++;
+            }
+
+        }
+
+        return taskQueue.size();
     }
+
+
 }
