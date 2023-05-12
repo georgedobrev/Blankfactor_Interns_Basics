@@ -1,21 +1,22 @@
 public class MergeTwoStrings {
-    private static  void merging() {
-      String word1 = "312312";
-      String word2 = "kfsf";
-        if (word1.length() > word2.length()) {
-            for (int i = 0; i < word1.length(); i++) {
-                System.out.print(word1.charAt(i % word1.length()));
-                System.out.print(word2.charAt(i % word2.length()));
+    static void mergeAndPrint() {
+        String word1 = "abc";
+        String word2 = "fasdfas";
+        StringBuilder merged = new StringBuilder();
+        int maxLength = Math.max(word1.length(), word2.length());
+        for (int i = 0; i < maxLength; i++) {
+            if (i < word1.length()) {
+                merged.append(word1.charAt(i));
             }
-        } else {
-            for (int i = 0; i < word2.length(); i++) {
-                System.out.print(word1.charAt(i % word1.length()));
-                System.out.print(word2.charAt(i % word2.length()));
+            if (i < word2.length()) {
+                merged.append(word2.charAt(i));
             }
         }
+        System.out.println(merged);
     }
+
     public static void main(String[] args) {
-        merging();
+        mergeAndPrint();
     }
 }
 
