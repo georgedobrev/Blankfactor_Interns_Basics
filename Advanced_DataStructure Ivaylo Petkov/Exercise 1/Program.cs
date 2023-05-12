@@ -10,28 +10,28 @@ namespace Application
     {
         static void Main(string[] args)
         {
-            string user_input = Console.ReadLine();
-            string clean_user_input = Regex.Replace(user_input, @"[^A-Za-z ]+", "").ToLower();
+            string userInput = Console.ReadLine();
+            string cleanUserInput = Regex.Replace(userInput, @"[^A-Za-z ]+", "").ToLower();
 
-            string[] final_sentece_word = clean_user_input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            string[] finalSenteceWord = cleanUserInput.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
 
-            Dictionary<string, int> most_used_word = new Dictionary<string, int>();
+            Dictionary<string, int> MostUsedWord = new Dictionary<string, int>();
 
-            foreach (string word in final_sentece_word)
+            foreach (string word in finalSenteceWord)
             {
-                if (most_used_word.ContainsKey(word))
+                if (MostUsedWord.ContainsKey(word))
                 {
-                    most_used_word[word]++;
+                    MostUsedWord[word]++;
                 }
                 else
                 {
-                    most_used_word[word] = 1;
+                    MostUsedWord[word] = 1;
                 }
             }
 
-            string most_common_word = most_used_word.OrderByDescending(kv => kv.Value).First().Key;
-            Console.WriteLine(most_common_word);
+            string mostCommonWord = MostUsedWord.OrderByDescending(kv => kv.Value).First().Key;
+            Console.WriteLine(mostCommonWord);
 
 
         }

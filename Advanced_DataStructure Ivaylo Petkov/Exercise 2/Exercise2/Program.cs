@@ -6,24 +6,24 @@ namespace Application
     {
         static void Main(string[] args)
         {
-            int[] Array = { 1, 2, 3, 4, 5 };
-            int Target = 7;
+            int[] array = { 1, 2, 3, 4, 5 };
+            int target = 7;
 
-            var Pairs = new System.Collections.Generic.List<(int, int)>();
-            for (int i = 0; i < Array.Length; i++)
+            var pairs = new System.Collections.Generic.List<(int, int)>();
+            for (int i = 0; i < array.Length; i++)
             {
-                for (int j = i + 1; j < Array.Length; j++)
+                for (int j = i + 1; j < array.Length; j++)
                 {
-                    if (Array[i] + Array[j] == Target)
+                    if (array[i] + array[j] == target)
                     {
-                        Pairs.Add((Array[i], Array[j]));
+                        pairs.Add((array[i], array[j]));
                     }
                 }
             }
 
-            foreach (var Pair in Pairs)
+            foreach (var pair in pairs)
             {
-                Console.WriteLine("(" + Pair.Item1 + ", " + Pair.Item2 + ")");
+                Console.WriteLine("(" + pair.Item1 + ", " + pair.Item2 + ")");
             }
         }
     }
