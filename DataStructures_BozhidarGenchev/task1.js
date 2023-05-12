@@ -1,19 +1,48 @@
-function countUnfinishedTasks(tasks, papers) {
-  let unfinishedTasks = 0;
-  let remainingPapers = papers.slice();
+import java.util.LinkedList;
+import java.util.Queue;
 
-  for (let i = 0; i < tasks.length; i++) {
-    const taskPaper = tasks[i];
-    const availableIndex = remainingPapers.indexOf(taskPaper);
+public class PrinterTask {
 
-    if (availableIndex !== -1) {
-      remainingPapers.splice(availableIndex, 1);
-    } else {
-      unfinishedTasks++;
+    public static int countUnableTasks(int[] tasks, int[] papers) {
+        int count = 0;
+        Queue<Integer> taskQueue = new LinkedList<>();
+
+        for (int task : tasks) {
+            taskQueue.add(task);
+        }
+
+        for (int i = 0; i < papers.length; i++) {
+            int paper = papers[i];
+            boolean found = false;
+
+            for (int j = 0, size = taskQueue.size(); j < size; j++) {
+                int task = taskQueue.poll();
+
+                if (!found && task == paper) {
+                    found = true;
+                } else {
+                    taskQueue.add(task);
+                }
+            }
+
+            if (!found) {
+                count++;
+            }
+
+            if (taskQueue.isEmpty()) {
+                break;
+            }
+        }
+
+        return count;
     }
-  }
 
-  return unfinishedTasks;
+    public static void main(String[] args) {
+        int[] tasks = {1, 1, 1, 0, 0, 1};
+        int[] papers = {1, 0, 0, 0, 1, 1};
+        int count = countUnableTasks(tasks, papers);
+        System.out.println("Number of unable tasks: " + count);
+    }
 }
 
 
