@@ -10,48 +10,70 @@
 //Write a function that accepts two parameters: an array of tasks and an array of papers’ type and returns the number
 //    of tasks that are unable to finish.
 
+using System;
+
+using System.Collections;
+
+
 class Program
 {
-    public static int CountUnfinishedTasks(int[] tasks, int[] papers)
+    public static int CountofUnfinishedtasks(int[] tasks, int[] paper)
     {
-        int numTasks = tasks.Length;
-        int numPapers = papers.Length;
-        int numUnfinished = 0;
-        int topPaperIndex = 0;
+        int numofTasks = tasks.Length;
+        int numofPapers = paper.Length;
+        int numofUnusedPaper = 0;
+        int numofUnfinishedTasks = 0;
 
-        for (int i = 0; i < numTasks; i++)
+        for (int i = 0; i < numofTasks; i++)
         {
-            int paperType = tasks[i];
-
-
-            if (papers[topPaperIndex] == paperType)
+            bool paperAvailable = false;
+            for (int j = 0; j < numofPapers; j++)
             {
-                topPaperIndex++;
-                if (topPaperIndex == numPapers)
+                if (tasks[i] == paper[j])
                 {
+                    paper[j] = -1;
+                    paperAvailable = true;
+                    break;
 
-                    topPaperIndex = 0;
                 }
             }
-            else
+            if (!paperAvailable)
             {
-
-                numUnfinished++;
+                numofUnusedPaper++;
+                numofUnfinishedTasks++;
             }
         }
-
-        return numUnfinished;
+        while (numofUnusedPaper > 0)
+        {
+            bool paperAvailable = false;
+            for (int i = numofTasks - numofUnfinishedTasks; i < numofTasks; i++)
+            {
+                if (tasks[i] == paper[numofPapers - numofUnusedPaper])
+                {
+                    paper[numofPapers - numofUnusedPaper] = -1;
+                    paperAvailable = true;
+                    numofUnfinishedTasks--;
+                    break;
+                }
+            }
+            if (!paperAvailable)
+            {
+                numofUnusedPaper--;
+            }
+        }
+        return numofUnfinishedTasks;
     }
+
     static void Main(string[] args)
     {
+        int[] tasks = { 1, 1, 1, 0, 1, 1 };
+        int[] paper = { 0, 1, 1, 1, 0, 0, 0 };
 
-        int[] tasks = { 1, 1, 0, 0, 0, 0 };
-        int[] papers = { 0, 0, 0, 0, 0, 0 };
+        int numberofUnfinishedtasks = CountofUnfinishedtasks(tasks, paper);
+        Console.WriteLine($"Number of unfinished tasks: {numberofUnfinishedtasks}");
 
-        int numUnfinished = CountUnfinishedTasks(tasks, papers);
-
-        Console.WriteLine($"Number of unfinished tasks: {numUnfinished}");
     }
+
 
 }
 
