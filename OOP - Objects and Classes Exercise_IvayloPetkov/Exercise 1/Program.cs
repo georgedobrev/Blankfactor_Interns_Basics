@@ -6,9 +6,9 @@ namespace Application
     {
         public static int Difference(string FirstDateString, string SecondDateString)
         {
-            DateTime FirstDateTime = DateTime.ParseExact(FirstDateString, "yyyy MM dd", null);
-            DateTime SecondDateTime = DateTime.ParseExact(SecondDateString, "yyyy MM dd", null);
-            TimeSpan TimeDifference = SecondDateTime - FirstDateTime;
+            DateTime firstDateTime = DateTime.ParseExact(FirstDateString, "yyyy MM dd", null);
+            DateTime secondDateTime = DateTime.ParseExact(SecondDateString, "yyyy MM dd", null);
+            TimeSpan timeDifference = secondDateTime - firstDateTime;
             return Math.Abs(TimeDifference.Days);
         }
     }
