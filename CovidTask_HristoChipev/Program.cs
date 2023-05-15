@@ -46,19 +46,21 @@ foreach (var row in table.SelectNodes("//*[@id=\"main_table_countries_today\"]/t
 
 foreach (var country in covidData)
 {
-    var query = "insert into covid_cases (region, country, total_cases, total_tests, active_cases) values " +
-         $"('{country.Region}', '{country.Name}', {country.TotalCases}, " +
-         $"{country.TotalTests}, {country.ActiveCases});";
+    var query = $"insert into covid_cases (region, country{(country.TotalCases == -1 ? "" : ", total_cases")}{(country.TotalTests == -1 ? "" : ", total_tests")}" +
+        $"{(country.ActiveCases == -1 ? "" : ", active_cases")}) values " +
+         $"('{country.Region}', '{country.Name}' {(country.TotalCases == -1 ? DBNull.Value : ", " + country.TotalCases)} " +
+         $"{(country.TotalTests == -1 ? DBNull.Value : ", " + country.TotalTests)} {(country.ActiveCases == -1 ? DBNull.Value : ", " + country.ActiveCases)});";
 
     DBCovid.ExecuteQuery(query);
 }
 
 Console.WriteLine("Enter 0 or 1 parameters");
-if (int.Parse(Console.ReadLine()) == 0)
+var ans = int.Parse(Console.ReadLine());
+if (ans == 0)
 {
     DBCovid.GetData();
 }
-else if (int.Parse(Console.ReadLine()) == 1)
+else if (ans == 1)
 {
     Console.WriteLine("Enter region(Capital sensitive)");
     DBCovid.GetData(Console.ReadLine());

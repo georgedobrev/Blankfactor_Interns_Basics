@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using Microsoft.Data.Sqlite;
+
 namespace CovidCases
 {
     public class DBConnector
@@ -30,9 +31,7 @@ namespace CovidCases
                 {
                     Console.WriteLine(e.Message);
                 }
-
             }
-
 
             connection.Close();
         }
@@ -44,11 +43,11 @@ namespace CovidCases
             SqliteCommand command = new SqliteCommand(query, connection);
             SqliteDataReader reader = command.ExecuteReader();
 
-
-            Console.WriteLine("|{0,-10}|{1,-30}|{2,-30}|{3,-15}|{4,-15}|{5,-15}|",
-                                          "ID", "Region", "Country", "Total Cases", "Total Tests", "Active Cases");
-            Console.WriteLine("|{0,-10}|{1,-30}|{2,-30}|{3,-15}|{4,-15}|{5,-15}|",
-                              new string('-', 10), new string('-', 30), new string('-', 30),
+            Console.WriteLine();
+            Console.WriteLine("|{0,-5}|{1,-30}|{2,-30}|{3,-15}|{4,-15}|{5,-15}|",
+                  "ID", "Region", "Country", "Total Cases", "Total Tests", "Active Cases");
+            Console.WriteLine("|{0,-5}|{1,-30}|{2,-30}|{3,-15}|{4,-15}|{5,-15}|",
+                              new string('-', 5), new string('-', 30), new string('-', 30),
                               new string('-', 15), new string('-', 15), new string('-', 15));
 
             while (reader.Read())
@@ -56,11 +55,11 @@ namespace CovidCases
                 int id = reader.GetInt32(0);
                 string region = reader.GetString(1);
                 string country = reader.GetString(2);
-                int totalCases = reader.GetInt32(3);
-                int totalTests = reader.GetInt32(4);
-                int activeCases = reader.GetInt32(5);
+                int? totalCases = reader.IsDBNull(3) ? null : (int?)reader.GetInt32(3);
+                int? totalTests = reader.IsDBNull(4) ? null : (int?)reader.GetInt32(4);
+                int? activeCases = reader.IsDBNull(5) ? null : (int?)reader.GetInt32(5);
 
-                Console.WriteLine("|{0,-10}|{1,-30}|{2,-30}|{3,-15}|{4,-15}|{5,-15}|",
+                Console.WriteLine("|{0,-5}|{1,-30}|{2,-30}|{3,-15}|{4,-15}|{5,-15}|",
                                   id, region, country, totalCases, totalTests, activeCases);
             }
             Console.WriteLine();
@@ -79,11 +78,11 @@ namespace CovidCases
             SqliteCommand command = new SqliteCommand(query, connection);
             SqliteDataReader reader = command.ExecuteReader();
 
-
-            Console.WriteLine("|{0,-10}|{1,-30}|{2,-30}|{3,-15}|{4,-15}|{5,-15}|",
+            Console.WriteLine();
+            Console.WriteLine("|{0,-5}|{1,-30}|{2,-30}|{3,-15}|{4,-15}|{5,-15}|",
                                           "ID", "Region", "Country", "Total Cases", "Total Tests", "Active Cases");
-            Console.WriteLine("|{0,-10}|{1,-30}|{2,-30}|{3,-15}|{4,-15}|{5,-15}|",
-                              new string('-', 10), new string('-', 30), new string('-', 30),
+            Console.WriteLine("|{0,-5}|{1,-30}|{2,-30}|{3,-15}|{4,-15}|{5,-15}|",
+                              new string('-', 5), new string('-', 30), new string('-', 30),
                               new string('-', 15), new string('-', 15), new string('-', 15));
 
             while (reader.Read())
@@ -91,11 +90,11 @@ namespace CovidCases
                 int id = reader.GetInt32(0);
                 string region = reader.GetString(1);
                 string country = reader.GetString(2);
-                int totalCases = reader.GetInt32(3);
-                int totalTests = reader.GetInt32(4);
-                int activeCases = reader.GetInt32(5);
+                int? totalCases = reader.IsDBNull(3) ? null : (int?)reader.GetInt32(3);
+                int? totalTests = reader.IsDBNull(4) ? null : (int?)reader.GetInt32(4);
+                int? activeCases = reader.IsDBNull(5) ? null : (int?)reader.GetInt32(5);
 
-                Console.WriteLine("|{0,-10}|{1,-30}|{2,-30}|{3,-15}|{4,-15}|{5,-15}|",
+                Console.WriteLine("|{0,-5}|{1,-30}|{2,-30}|{3,-15}|{4,-15}|{5,-15}|",
                                   id, region, country, totalCases, totalTests, activeCases);
             }
             Console.WriteLine();
@@ -122,9 +121,9 @@ namespace CovidCases
                 int id = reader.GetInt32(0);
                 string region = reader.GetString(1);
                 string country = reader.GetString(2);
-                int totalCases = reader.GetInt32(3);
-                int totalTests = reader.GetInt32(4);
-                int activeCases = reader.GetInt32(5);
+                int? totalCases = reader.IsDBNull(3) ? null : (int?)reader.GetInt32(3);
+                int? totalTests = reader.IsDBNull(4) ? null : (int?)reader.GetInt32(4);
+                int? activeCases = reader.IsDBNull(5) ? null : (int?)reader.GetInt32(5);
 
                 dataTable.Rows.Add(id, region, country, totalCases, totalTests, activeCases);
             }
@@ -167,7 +166,5 @@ namespace CovidCases
 
             sw.Close();
         }
-
     }
 }
-
