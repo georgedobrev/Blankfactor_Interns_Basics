@@ -1,232 +1,51 @@
 Region,Country,Total Cases,Total Tests,Active Cases
-North America,USA,106819806,851730,1179234024
 Asia,India,44981475,14493,928612551
-Europe,France,40045596,85269,271490188
-Europe,Germany,38418899,25565,122332384
-South America,Brazil,37511921,560644,63776166
 Asia,Japan,33803572,-1,100414883
 Asia,S. Korea,31438960,296086,15804065
-Europe,Italy,25828252,126475,272079213
-Europe,UK,24569895,1004,522526476
-Europe,Russia,22900755,178807,273400000
 Asia,Turkey,17232066,-1,162743369
-Europe,Spain,13845825,43847,471036328
 Asia,Vietnam,11592604,916827,85826548
-Australia/Oceania,Australia,11505229,29729,81901821
 Asia,Taiwan,10239998,0,30742304
-South America,Argentina,10044957,0,35716069
-Europe,Netherlands,8610372,0,25984435
 Asia,Iran,7609922,121267,55353767
-North America,Mexico,7600278,419116,19971611
 Asia,Indonesia,6798097,16677,114158919
-Europe,Poland,6515598,1060073,38699972
-South America,Colombia,6365994,35303,36951507
-Europe,Austria,6072229,6932,211273524
-Europe,Greece,6025776,6199,102228365
-Europe,Portugal,5582987,2195,46082209
-Europe,Ukraine,5538357,19743,32603805
-South America,Chile,5286279,374,49544467
 Asia,Malaysia,5088009,21090,68352292
 Asia,Israel,4823329,12356,41373364
-Europe,Belgium,4797108,9230,37018657
 Asia,DPRK,4772813,0,-1
 Asia,Thailand,4736356,9731,17270775
-Europe,Czechia,4641335,1426,57196320
-North America,Canada,4641301,0,66343123
-South America,Peru,4503222,433,38548796
-Europe,Switzerland,4404327,4109,23833472
 Asia,Philippines,4116925,15895,35133100
-Africa,South Africa,4076463,61362,26795090
-Europe,Romania,3397365,7241,27242332
-Europe,Denmark,3181366,786,129276961
 Asia,Hong Kong,2897432,11803,76127725
-Europe,Sweden,2708137,3245,19500873
-Europe,Serbia,2538899,5230,12858629
 Asia,Iraq,2465545,673,19544451
 Asia,Singapore,2391248,239938,24756666
-Australia/Oceania,New Zealand,2348074,10286,7768604
-Europe,Hungary,2202179,3472,11394556
 Asia,Bangladesh,2038384,10490,15254399
-Europe,Slovakia,1866647,335,7428816
 Asia,Georgia,1840187,46580,16920079
 Asia,Jordan,1746997,1868,17201885
-Europe,Ireland,1711233,2300,13083449
 Asia,Pakistan,1580900,11551,30571377
-Europe,Norway,1483639,474,11002430
-Europe,Finland,1477021,4607,12090288
 Asia,Kazakhstan,1411831,14963,11575012
-Europe,Slovenia,1343626,8520,2847701
-Europe,Lithuania,1319481,1431,10444610
-Europe,Bulgaria,1306103,2129,11209774
-Africa,Morocco,1273832,1384,13001033
-Europe,Croatia,1273508,383,5588632
-North America,Guatemala,1250304,1764,7282806
 Asia,Lebanon,1237556,139055,4795578
-North America,Costa Rica,1229587,359514,4659757
-South America,Bolivia,1198050,8491,2705422
-Africa,Tunisia,1153063,-1,5011219
-North America,Cuba,1113653,151,14345279
 Asia,UAE,1065607,11746,200615238
-South America,Ecuador,1061100,0,3082403
-North America,Panama,1037978,583,7671671
-South America,Uruguay,1037893,433,6114822
 Asia,Mongolia,1008038,45,4030048
 Asia,Nepal,1003236,112,6040923
-Europe,Belarus,994037,1327,13646641
-Europe,Latvia,977833,194,7875439
 Asia,Saudi Arabia,841469,3900,45481735
 Asia,Azerbaijan,831658,98,7604359
-South America,Paraguay,810170,-1,2657506
 Asia,Bahrain,721162,302,10840228
 Asia,Sri Lanka,672293,47,6486117
 Asia,Kuwait,665851,3044,8455743
-North America,Dominican Republic,661103,11934,3740928
 Asia,Cyprus,660854,2404,9640118
 Asia,Myanmar,637321,1705,10519883
 Asia,Palestine,621008,159,3078533
-Europe,Moldova,620419,104164,3216305
-Europe,Estonia,618218,90227,3707220
-South America,Venezuela,552695,302,3359014
-Africa,Egypt,516023,49228,3693367
 Asia,Qatar,511144,580,4065369
-Africa,Libya,507255,2,2483848
-Africa,Ethiopia,500871,5271,5547056
-Africa,Réunion,486588,67095,1603660
-North America,Honduras,472594,-1,1658999
 Asia,Armenia,449062,5153,3242901
-Europe,Bosnia and Herzegovina,402890,7467,1884721
 Asia,Oman,399449,10152,25000000
-Europe,North Macedonia,348215,1471,2226216
-Africa,Zambia,343995,79,4047915
-Africa,Kenya,343073,76,3967062
-Europe,Albania,334726,1696,1941032
-Africa,Botswana,329856,6,2026898
-Europe,Luxembourg,319959,2037,4587145
 Asia,Brunei,292644,48818,717784
-Europe,Montenegro,291820,583,2752880
-Africa,Algeria,271817,81910,230960
-Africa,Nigeria,266675,3567,5708974
-Africa,Zimbabwe,264776,199,2525756
 Asia,Uzbekistan,253287,10164,1377915
-Africa,Mozambique,233417,2369,1371127
-North America,Martinique,229900,-1,828928
 Asia,Afghanistan,219043,16042,1249005
 Asia,Laos,218101,-1,1233207
-Europe,Iceland,209191,-1,1996384
 Asia,Kyrgyzstan,206888,7491,1907195
-North America,Guadeloupe,202653,-1,938039
-North America,El Salvador,201785,18145,2610114
-North America,Trinidad and Tobago,191496,28,913289
 Asia,Maldives,186589,22588,2213831
-Africa,Ghana,171657,34,2536496
-Africa,Namibia,171222,33,1062663
-Africa,Uganda,170671,66608,3012408
-North America,Jamaica,154874,48439,1183986
 Asia,Cambodia,138736,1,3091420
-Africa,Rwanda,133194,79,6021981
-Africa,Cameroon,124983,205,1751774
-Europe,Malta,118574,588,2137285
-North America,Barbados,107566,6,801451
-Africa,Angola,105384,31,1499795
-Europe,Channel Islands,101717,168,1252808
-South America,French Guiana,98041,86367,651257
-Africa,DRC,96403,10449,846704
-Africa,Senegal,88997,2,1146543
-Africa,Malawi,88728,391,624784
-Africa,Ivory Coast,88329,3,1690172
-South America,Suriname,82495,-1,241666
-Australia/Oceania,New Caledonia,79922,3,98964
-Australia/Oceania,French Polynesia,78518,-1,-1
-Africa,Eswatini,74670,129,1048704
-South America,Guyana,73198,20,729688
-North America,Belize,70782,9,576016
-Australia/Oceania,Fiji,68921,1009,670903
-Africa,Madagascar,68266,11,530739
-Africa,Sudan,63993,291,562941
-Africa,Cabo Verde,63754,154,401622
-Africa,Mauritania,63715,247,1009957
 Asia,Bhutan,62668,1083,2303734
 Asia,Syria,57577,43,146269
-Africa,Burundi,53740,133,345742
-Africa,Seychelles,50937,15,-1
-Africa,Gabon,48981,1,1621909
-Europe,Andorra,48015,287,249838
-Australia/Oceania,Papua New Guinea,46849,2197,249149
-North America,Curaçao,45986,971,496693
-North America,Aruba,44180,1506,177885
-Africa,Tanzania,43078,-1,-1
-Africa,Mauritius,42358,744,358675
-Africa,Mayotte,42027,-1,176919
-Africa,Togo,39491,8,811283
-Africa,Guinea,38462,238,660107
-North America,Bahamas,38084,874,257839
-Europe,Isle of Man,38008,-1,150753
-Africa,Lesotho,34790,8087,431221
-Europe,Faeroe Islands,34658,-1,778000
-North America,Haiti,34228,26,132422
-Africa,Mali,33145,76,803825
-North America,Cayman Islands,31472,22882,222773
-North America,Saint Lucia,30052,548,210983
-Africa,Benin,28014,4,604310
-Africa,Somalia,27334,12791,400466
-Australia/Oceania,Micronesia,26453,-1,82000
-Africa,Congo,25375,983,347815
-Australia/Oceania,Solomon Islands,24575,-1,-1
-Europe,San Marino,24247,24,196855
 Asia,Timor-Leste,23433,193,278529
-Africa,Burkina Faso,22056,64,248995
-Europe,Liechtenstein,21437,1,112457
-Europe,Gibraltar,20550,3858,534283
-North America,Grenada,19693,97,182981
-North America,Bermuda,18860,10,1029558
-North America,Nicaragua,18491,14041,-1
-Africa,South Sudan,18368,115,410280
 Asia,Tajikistan,17786,397,-1
-Africa,Equatorial Guinea,17229,139,365697
-Australia/Oceania,Tonga,16816,1165,535009
-Australia/Oceania,Samoa,16763,15127,187397
-Europe,Monaco,16760,701,78646
-Australia/Oceania,Marshall Islands,16081,110,-1
-North America,Dominica,15760,13,229344
-Africa,Djibouti,15690,74,305941
-Africa,CAR,15368,55,81294
-Africa,Gambia,12626,65,155686
-North America,Saint Martin,12300,10838,112382
-Australia/Oceania,Vanuatu,12016,26,24976
-North America,Greenland,11971,9189,164926
 Asia,Yemen,11945,662,329592
-North America,Caribbean Netherlands,11682,1168,30126
-North America,Sint Maarten,11030,33,62056
-Africa,Eritrea,10189,0,23693
-Africa,Niger,9931,729,254538
-North America,St. Vincent Grenadines,9619,7,114100
-Africa,Guinea-Bissau,9614,508,145231
-Africa,Comoros,9109,9,-1
-North America,Antigua and Barbuda,9106,6,18901
-Africa,Liberia,8090,12,139824
-Africa,Sierra Leone,7762,-1,259958
-Africa,Chad,7701,2633,191341
-North America,British Virgin Islands,7305,-1,107339
-Australia/Oceania,Cook Islands,7067,5,19690
-North America,Saint Kitts and Nevis,6600,2,126941
-North America,Turks and Caicos,6588,21,612335
-Africa,Sao Tome and Principe,6580,5,29036
-Australia/Oceania,Palau,6000,0,69641
-North America,St. Barth,5486,-1,78646
-Australia/Oceania,Nauru,5393,45,20509
-Australia/Oceania,Kiribati,5025,2298,-1
-North America,Anguilla,3904,13,51382
 Asia,Macao,3579,11,7850
-North America,Saint Pierre Miquelon,3452,1001,25400
-Australia/Oceania,Wallis and Futuna,3427,2982,20508
-Australia/Oceania,Tuvalu,2805,2805,-1
-Africa,Saint Helena,2166,2164,-1
-South America,Falkland Islands,1930,0,8632
-North America,Montserrat,1403,19,17762
-Australia/Oceania,Niue,802,1,-1
-,Diamond Princess,712,0,-1
-Europe,Vatican City,29,0,-1
-Africa,Western Sahara,10,0,-1
-,MS Zaandam,9,0,-1
-Australia/Oceania,Tokelau,5,5,-1
 Asia,China,503302,118977,160000000
