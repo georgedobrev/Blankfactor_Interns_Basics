@@ -1,33 +1,29 @@
 ﻿using System;
-using System.Collections.Generic;
 
 public class Printer
 {
     public static int CountUnfinishedTasks(int[] tasks, int[] papers)
     {
-        int unfinishedTasks = 0;
+        var paperStack = new Stack<int>(papers);
+        var tasksQueue = new Queue<int>(tasks);
+        var count = 0;
 
-        for (int i = 0; i < tasks.Length; i++)
-        {          
-
-            for (int j = i + 1; j < tasks.Length; j++)
+        while (paperStack.Count > 0 && count <= paperStack.Count + 1)
+        {
+            if (paperStack.Peek() == tasksQueue.Peek())
             {
-                if (papers[j] == tasks[i])
-                {
-                    int temp = papers[i];
-                    papers[i] = papers[j];
-                    papers[j] = temp;
-                    break;
-                }
+                paperStack.Pop();
+                tasksQueue.Dequeue();
+                count = 0;
             }
-
-            if (papers[i] != tasks[i])
+            else
             {
-                unfinishedTasks++;
+                tasksQueue.Enqueue(tasksQueue.Dequeue());
+                count++;
             }
         }
 
-        return unfinishedTasks;
+        return tasksQueue.Count;
     }
 }
 
@@ -35,8 +31,8 @@ public class Program
 {
     static void Main(string[] args)
     {
-        int[] tasks = { 1, 1, 0, 1, 0, 1, 0, 1 , 1};
-        int[] papers = { 1, 1, 0, 0, 1, 1, 0, 0, 1};
+        int[] tasks = { 1, 1, 1, 0, 0 };
+        int[] papers = { 1, 0, 0, 0, 1 };
 
         int unfinishedTasks = Printer.CountUnfinishedTasks(tasks, papers);
 
