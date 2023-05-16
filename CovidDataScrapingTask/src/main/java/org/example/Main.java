@@ -10,6 +10,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.sql.*;
 import java.sql.Connection;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 public class Main {
@@ -94,9 +96,13 @@ public class Main {
         }
     }
     public static void selectWithRegion(String regionName) {
+        LocalDate localDate = LocalDate.now();
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yy_MM_dd");
+        String date = localDate.format(dateTimeFormatter);
+
         Path path = Paths.get("Sqlitecovid.db");
         String url = "jdbc:sqlite:" + path.toAbsolutePath().toString();
-        String csvFile = "export_"+ regionName +"_YY_MM_DD.csv";
+        String csvFile = "export_"+ regionName +"_" + date + ".csv";
         FileWriter writer = null;
 
         String sql = "select * from covid where region = ?";
