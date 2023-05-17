@@ -1,0 +1,40 @@
+﻿@using YourWebScraper.Common
+@using YourWebScraper.Web.ViewModels.Home;
+@model IndexViewModel
+@{
+    this.ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to @GlobalConstants.SystemName!</h1>
+    <h1 class="display-4">LAST DATA FETCH @DateTime.UtcNow</h1>
+    <h1 class="display-4">YOU ARE LOOKING DATA FOR ALL COUNTRIES</h1>
+    @if(!Model.Countries.Any())
+    {
+        <h1 class="display-4">No Data Try Again</h1>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Country</th>
+                    <th>Active Cases</th>
+                    <th>Total Cases</th>
+                    <th>Total Tests</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var country in Model.Countries)
+                {
+                    <tr>
+                        <td>@country.Name</td>
+                        <td>@country.ActiveCases</td>
+                        <td>@country.TotalCases</td>
+                        <td>@country.TotalTests</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

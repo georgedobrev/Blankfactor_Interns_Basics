@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>..\..\Rules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="..\..\stylecop.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+    <PackageReference Include="Selenium.Support" Version="4.9.1" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.9.1" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.435" PrivateAssets="all">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\YourWebScraper.Data.Common\YourWebScraper.Data.Common.csproj" />
+    <ProjectReference Include="..\..\Data\YourWebScraper.Data.Models\YourWebScraper.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Web\YourWebScraper.Web.ViewModels\YourWebScraper.Web.ViewModels.csproj" />
+    <ProjectReference Include="..\YourWebScraper.Services.Mapping\YourWebScraper.Services.Mapping.csproj" />
+  </ItemGroup>
+
+</Project>
