@@ -1,0 +1,55 @@
+﻿@using YourWebScraper.Common
+@using YourWebScraper.Web.ViewModels.Home;
+@model IndexViewModel
+@{
+    this.ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to @GlobalConstants.SystemName!</h1>
+    <h1 class="display-4">LAST DATA FETCH @DateTime.UtcNow</h1>
+    <h1 class="display-4">YOU ARE LOOKING DATA FOR EUROPE COUNTRIES</h1>
+    @if (!Model.Countries.Any())
+    {
+        <h1 class="display-4">No Data Try Again</h1>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Region</th>
+                    <th>Country</th>
+                    <th>Active Cases</th>
+                    <th>Total Cases</th>
+                    <th>Total Tests</th>
+                </tr>
+            </thead>
+            <tbody>
+                <form method="post">
+                    @foreach (var country in Model.Countries)
+                    {
+                    <tr>
+                        <td>@country.Region</td>
+                        <td>@country.Name</td>
+                        <td>@country.ActiveCases</td>
+                        <td>@country.TotalCases</td>
+                        <td>@country.TotalTests</td>
+                    </tr>
+                    }
+                <div class="mb-3">
+                    <input id="btnSubmit" class="btn btn-primary" type="submit" value="Export To CSV" />
+                </div>
+                </form>
+            </tbody>
+        </table>
+
+
+
+        <script>
+            document.getElementById("btnSubmit").addEventListener("click", function () {
+                alert("Success!");
+            });
+        </script>
+    }
+</div>
