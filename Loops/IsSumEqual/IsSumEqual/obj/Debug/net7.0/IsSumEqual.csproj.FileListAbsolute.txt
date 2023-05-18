@@ -1,0 +1,15 @@
+/Users/Aleksandar.Arsov/Projects/IsSumEqual/IsSumEqual/bin/Debug/net7.0/IsSumEqual
+/Users/Aleksandar.Arsov/Projects/IsSumEqual/IsSumEqual/bin/Debug/net7.0/IsSumEqual.deps.json
+/Users/Aleksandar.Arsov/Projects/IsSumEqual/IsSumEqual/bin/Debug/net7.0/IsSumEqual.runtimeconfig.json
+/Users/Aleksandar.Arsov/Projects/IsSumEqual/IsSumEqual/bin/Debug/net7.0/IsSumEqual.dll
+/Users/Aleksandar.Arsov/Projects/IsSumEqual/IsSumEqual/bin/Debug/net7.0/IsSumEqual.pdb
+/Users/Aleksandar.Arsov/Projects/IsSumEqual/IsSumEqual/obj/Debug/net7.0/IsSumEqual.csproj.AssemblyReference.cache
+/Users/Aleksandar.Arsov/Projects/IsSumEqual/IsSumEqual/obj/Debug/net7.0/IsSumEqual.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Aleksandar.Arsov/Projects/IsSumEqual/IsSumEqual/obj/Debug/net7.0/IsSumEqual.AssemblyInfoInputs.cache
+/Users/Aleksandar.Arsov/Projects/IsSumEqual/IsSumEqual/obj/Debug/net7.0/IsSumEqual.AssemblyInfo.cs
+/Users/Aleksandar.Arsov/Projects/IsSumEqual/IsSumEqual/obj/Debug/net7.0/IsSumEqual.csproj.CoreCompileInputs.cache
+/Users/Aleksandar.Arsov/Projects/IsSumEqual/IsSumEqual/obj/Debug/net7.0/IsSumEqual.dll
+/Users/Aleksandar.Arsov/Projects/IsSumEqual/IsSumEqual/obj/Debug/net7.0/refint/IsSumEqual.dll
+/Users/Aleksandar.Arsov/Projects/IsSumEqual/IsSumEqual/obj/Debug/net7.0/IsSumEqual.pdb
+/Users/Aleksandar.Arsov/Projects/IsSumEqual/IsSumEqual/obj/Debug/net7.0/IsSumEqual.genruntimeconfig.cache
+/Users/Aleksandar.Arsov/Projects/IsSumEqual/IsSumEqual/obj/Debug/net7.0/ref/IsSumEqual.dll

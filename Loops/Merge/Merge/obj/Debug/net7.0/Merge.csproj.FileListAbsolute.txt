@@ -1,0 +1,5 @@
+/Users/Aleksandar.Arsov/Projects/Merge/Merge/obj/Debug/net7.0/Merge.csproj.AssemblyReference.cache
+/Users/Aleksandar.Arsov/Projects/Merge/Merge/obj/Debug/net7.0/Merge.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Aleksandar.Arsov/Projects/Merge/Merge/obj/Debug/net7.0/Merge.AssemblyInfoInputs.cache
+/Users/Aleksandar.Arsov/Projects/Merge/Merge/obj/Debug/net7.0/Merge.AssemblyInfo.cs
+/Users/Aleksandar.Arsov/Projects/Merge/Merge/obj/Debug/net7.0/Merge.csproj.CoreCompileInputs.cache
