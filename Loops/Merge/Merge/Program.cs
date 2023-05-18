@@ -19,7 +19,7 @@ static string MergeStrings(string word1, string word2)
 
         while (i < len1 && j < len2)
         {
-            merged += word1[i++] + word2[j++];
+            merged += word1[i++].ToString() + word2[j++].ToString();
         }
 
 
@@ -37,3 +37,5 @@ static string MergeStrings(string word1, string word2)
         return merged;
     }
 }
+
+

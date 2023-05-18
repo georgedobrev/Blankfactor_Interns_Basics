@@ -6,9 +6,14 @@
         string str_x = x.ToString();
         
         char[] charArray = str_x.ToCharArray();
-        Array.Reverse(charArray);
-        string reversed_str_x = new string(charArray);
-        
+        //Array.Reverse(charArray);
+        //string reversed_str_x = new string(charArray);
+        string reverse = String.Empty
+        for(int i = charArray.Length - 1 ; i >= 0 ; i--)
+            {
+                reverse = charArray[i];
+            }
+
         if (str_x == reversed_str_x)
         {
             return true;
