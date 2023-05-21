@@ -1,0 +1,479 @@
+Id, Region, Country, TotalCases, TotalTests, ActiveCases
+696,Europe,France,40045596,0,85269
+697,Europe,Germany,38418899,0,25565
+701,Europe,Italy,25828252,0,126475
+702,Europe,UK,24569895,0,1004
+703,Europe,Russia,22900755,0,178807
+705,Europe,Spain,13845825,0,43847
+710,Europe,Netherlands,8610372,0,0
+714,Europe,Poland,6515598,0,1060073
+716,Europe,Austria,6072229,0,6932
+717,Europe,Greece,6025776,0,6199
+718,Europe,Portugal,5582987,0,2195
+719,Europe,Ukraine,5538357,0,19743
+723,Europe,Belgium,4797108,0,9230
+726,Europe,Czechia,4641335,0,1426
+729,Europe,Switzerland,4404327,0,4109
+732,Europe,Romania,3397365,0,7241
+733,Europe,Denmark,3181366,0,786
+735,Europe,Sweden,2708137,0,3245
+736,Europe,Serbia,2538899,0,5230
+740,Europe,Hungary,2202179,0,3472
+742,Europe,Slovakia,1866647,0,335
+745,Europe,Ireland,1711233,0,2300
+747,Europe,Norway,1483639,0,474
+748,Europe,Finland,1477021,0,4607
+750,Europe,Slovenia,1343626,0,8520
+751,Europe,Lithuania,1319481,0,1431
+752,Europe,Bulgaria,1306103,0,2129
+754,Europe,Croatia,1273508,0,383
+767,Europe,Belarus,994037,0,1327
+768,Europe,Latvia,977833,0,194
+779,Europe,Moldova,620419,0,104164
+780,Europe,Estonia,618218,0,90227
+789,Europe,Bosnia and Herzegovina,402890,0,7467
+791,Europe,North Macedonia,348215,0,1471
+794,Europe,Albania,334726,0,1696
+796,Europe,Luxembourg,319959,0,2037
+798,Europe,Montenegro,291820,0,583
+807,Europe,Iceland,209191,0,-1
+820,Europe,Malta,118574,0,588
+823,Europe,Channel Islands,101717,0,168
+845,Europe,Andorra,48015,0,287
+855,Europe,Isle of Man,38008,0,-1
+857,Europe,Faeroe Islands,34658,0,-1
+867,Europe,San Marino,24247,0,24
+870,Europe,Liechtenstein,21437,0,1
+871,Europe,Gibraltar,20550,0,3858
+880,Europe,Monaco,16760,0,701
+920,Europe,Vatican City,29,0,0
+927,Europe,France,40045596,0,85269
+928,Europe,Germany,38418899,0,25565
+932,Europe,Italy,25828252,0,126475
+933,Europe,UK,24569895,0,1004
+934,Europe,Russia,22900755,0,178807
+936,Europe,Spain,13845825,0,43847
+941,Europe,Netherlands,8610372,0,0
+945,Europe,Poland,6515598,0,1060073
+947,Europe,Austria,6072229,0,6932
+948,Europe,Greece,6025776,0,6199
+949,Europe,Portugal,5582987,0,2195
+950,Europe,Ukraine,5538357,0,19743
+954,Europe,Belgium,4797108,0,9230
+957,Europe,Czechia,4641335,0,1426
+960,Europe,Switzerland,4404327,0,4109
+963,Europe,Romania,3397365,0,7241
+964,Europe,Denmark,3181366,0,786
+966,Europe,Sweden,2708137,0,3245
+967,Europe,Serbia,2538899,0,5230
+971,Europe,Hungary,2202179,0,3472
+973,Europe,Slovakia,1866647,0,335
+976,Europe,Ireland,1711233,0,2300
+978,Europe,Norway,1483639,0,474
+979,Europe,Finland,1477021,0,4607
+981,Europe,Slovenia,1343626,0,8520
+982,Europe,Lithuania,1319481,0,1431
+983,Europe,Bulgaria,1306103,0,2129
+985,Europe,Croatia,1273508,0,383
+998,Europe,Belarus,994037,0,1327
+999,Europe,Latvia,977833,0,194
+1010,Europe,Moldova,620419,0,104164
+1011,Europe,Estonia,618218,0,90227
+1020,Europe,Bosnia and Herzegovina,402890,0,7467
+1022,Europe,North Macedonia,348215,0,1471
+1025,Europe,Albania,334726,0,1696
+1027,Europe,Luxembourg,319959,0,2037
+1029,Europe,Montenegro,291820,0,583
+1038,Europe,Iceland,209191,0,-1
+1051,Europe,Malta,118574,0,588
+1054,Europe,Channel Islands,101717,0,168
+1076,Europe,Andorra,48015,0,287
+1086,Europe,Isle of Man,38008,0,-1
+1088,Europe,Faeroe Islands,34658,0,-1
+1098,Europe,San Marino,24247,0,24
+1101,Europe,Liechtenstein,21437,0,1
+1102,Europe,Gibraltar,20550,0,3858
+1111,Europe,Monaco,16760,0,701
+1151,Europe,Vatican City,29,0,0
+1158,Europe,France,40045596,0,85269
+1159,Europe,Germany,38418899,0,25565
+1163,Europe,Italy,25828252,0,126475
+1164,Europe,UK,24569895,0,1004
+1165,Europe,Russia,22900755,0,178807
+1167,Europe,Spain,13845825,0,43847
+1172,Europe,Netherlands,8610372,0,0
+1176,Europe,Poland,6515598,0,1060073
+1178,Europe,Austria,6072229,0,6932
+1179,Europe,Greece,6025776,0,6199
+1180,Europe,Portugal,5582987,0,2195
+1181,Europe,Ukraine,5538357,0,19743
+1185,Europe,Belgium,4797108,0,9230
+1188,Europe,Czechia,4641335,0,1426
+1191,Europe,Switzerland,4404327,0,4109
+1194,Europe,Romania,3397365,0,7241
+1195,Europe,Denmark,3181366,0,786
+1197,Europe,Sweden,2708137,0,3245
+1198,Europe,Serbia,2538899,0,5230
+1202,Europe,Hungary,2202179,0,3472
+1204,Europe,Slovakia,1866647,0,335
+1207,Europe,Ireland,1711233,0,2300
+1209,Europe,Norway,1483639,0,474
+1210,Europe,Finland,1477021,0,4607
+1212,Europe,Slovenia,1343626,0,8520
+1213,Europe,Lithuania,1319481,0,1431
+1214,Europe,Bulgaria,1306103,0,2129
+1216,Europe,Croatia,1273508,0,383
+1229,Europe,Belarus,994037,0,1327
+1230,Europe,Latvia,977833,0,194
+1241,Europe,Moldova,620419,0,104164
+1242,Europe,Estonia,618218,0,90227
+1251,Europe,Bosnia and Herzegovina,402890,0,7467
+1253,Europe,North Macedonia,348215,0,1471
+1256,Europe,Albania,334726,0,1696
+1258,Europe,Luxembourg,319959,0,2037
+1260,Europe,Montenegro,291820,0,583
+1269,Europe,Iceland,209191,0,-1
+1282,Europe,Malta,118574,0,588
+1285,Europe,Channel Islands,101717,0,168
+1307,Europe,Andorra,48015,0,287
+1317,Europe,Isle of Man,38008,0,-1
+1319,Europe,Faeroe Islands,34658,0,-1
+1329,Europe,San Marino,24247,0,24
+1332,Europe,Liechtenstein,21437,0,1
+1333,Europe,Gibraltar,20550,0,3858
+1342,Europe,Monaco,16760,0,701
+1382,Europe,Vatican City,29,0,0
+1389,Europe,France,40045596,0,85269
+1390,Europe,Germany,38418899,0,25565
+1394,Europe,Italy,25828252,0,126475
+1395,Europe,UK,24569895,0,1004
+1396,Europe,Russia,22900755,0,178807
+1398,Europe,Spain,13845825,0,43847
+1403,Europe,Netherlands,8610372,0,0
+1407,Europe,Poland,6515598,0,1060073
+1409,Europe,Austria,6072229,0,6932
+1410,Europe,Greece,6025776,0,6199
+1411,Europe,Portugal,5582987,0,2195
+1412,Europe,Ukraine,5538357,0,19743
+1416,Europe,Belgium,4797108,0,9230
+1419,Europe,Czechia,4641335,0,1426
+1422,Europe,Switzerland,4404327,0,4109
+1425,Europe,Romania,3397365,0,7241
+1426,Europe,Denmark,3181366,0,786
+1428,Europe,Sweden,2708137,0,3245
+1429,Europe,Serbia,2538899,0,5230
+1433,Europe,Hungary,2202179,0,3472
+1435,Europe,Slovakia,1866647,0,335
+1438,Europe,Ireland,1711233,0,2300
+1440,Europe,Norway,1483639,0,474
+1441,Europe,Finland,1477021,0,4607
+1443,Europe,Slovenia,1343626,0,8520
+1444,Europe,Lithuania,1319481,0,1431
+1445,Europe,Bulgaria,1306103,0,2129
+1447,Europe,Croatia,1273508,0,383
+1460,Europe,Belarus,994037,0,1327
+1461,Europe,Latvia,977833,0,194
+1472,Europe,Moldova,620419,0,104164
+1473,Europe,Estonia,618218,0,90227
+1482,Europe,Bosnia and Herzegovina,402890,0,7467
+1484,Europe,North Macedonia,348215,0,1471
+1487,Europe,Albania,334726,0,1696
+1489,Europe,Luxembourg,319959,0,2037
+1491,Europe,Montenegro,291820,0,583
+1500,Europe,Iceland,209191,0,-1
+1513,Europe,Malta,118574,0,588
+1516,Europe,Channel Islands,101717,0,168
+1538,Europe,Andorra,48015,0,287
+1548,Europe,Isle of Man,38008,0,-1
+1550,Europe,Faeroe Islands,34658,0,-1
+1560,Europe,San Marino,24247,0,24
+1563,Europe,Liechtenstein,21437,0,1
+1564,Europe,Gibraltar,20550,0,3858
+1573,Europe,Monaco,16760,0,701
+1613,Europe,Vatican City,29,0,0
+1620,Europe,France,40045596,0,85269
+1621,Europe,Germany,38418899,0,25565
+1625,Europe,Italy,25828252,0,126475
+1626,Europe,UK,24569895,0,1004
+1627,Europe,Russia,22900755,0,178807
+1629,Europe,Spain,13845825,0,43847
+1634,Europe,Netherlands,8610372,0,0
+1638,Europe,Poland,6515598,0,1060073
+1640,Europe,Austria,6072229,0,6932
+1641,Europe,Greece,6025776,0,6199
+1642,Europe,Portugal,5582987,0,2195
+1643,Europe,Ukraine,5538357,0,19743
+1647,Europe,Belgium,4797108,0,9230
+1650,Europe,Czechia,4641335,0,1426
+1653,Europe,Switzerland,4404327,0,4109
+1656,Europe,Romania,3397365,0,7241
+1657,Europe,Denmark,3181366,0,786
+1659,Europe,Sweden,2708137,0,3245
+1660,Europe,Serbia,2538899,0,5230
+1664,Europe,Hungary,2202179,0,3472
+1666,Europe,Slovakia,1866647,0,335
+1669,Europe,Ireland,1711233,0,2300
+1671,Europe,Norway,1483639,0,474
+1672,Europe,Finland,1477021,0,4607
+1674,Europe,Slovenia,1343626,0,8520
+1675,Europe,Lithuania,1319481,0,1431
+1676,Europe,Bulgaria,1306103,0,2129
+1678,Europe,Croatia,1273508,0,383
+1691,Europe,Belarus,994037,0,1327
+1692,Europe,Latvia,977833,0,194
+1703,Europe,Moldova,620419,0,104164
+1704,Europe,Estonia,618218,0,90227
+1713,Europe,Bosnia and Herzegovina,402890,0,7467
+1715,Europe,North Macedonia,348215,0,1471
+1718,Europe,Albania,334726,0,1696
+1720,Europe,Luxembourg,319959,0,2037
+1722,Europe,Montenegro,291820,0,583
+1731,Europe,Iceland,209191,0,-1
+1744,Europe,Malta,118574,0,588
+1747,Europe,Channel Islands,101717,0,168
+1769,Europe,Andorra,48015,0,287
+1779,Europe,Isle of Man,38008,0,-1
+1781,Europe,Faeroe Islands,34658,0,-1
+1791,Europe,San Marino,24247,0,24
+1794,Europe,Liechtenstein,21437,0,1
+1795,Europe,Gibraltar,20550,0,3858
+1804,Europe,Monaco,16760,0,701
+1844,Europe,Vatican City,29,0,0
+1851,Europe,France,40045596,0,85269
+1852,Europe,Germany,38418899,0,25565
+1856,Europe,Italy,25828252,0,126475
+1857,Europe,UK,24569895,0,1004
+1858,Europe,Russia,22900755,0,178807
+1860,Europe,Spain,13845825,0,43847
+1865,Europe,Netherlands,8610372,0,0
+1869,Europe,Poland,6515598,0,1060073
+1871,Europe,Austria,6072229,0,6932
+1872,Europe,Greece,6025776,0,6199
+1873,Europe,Portugal,5582987,0,2195
+1874,Europe,Ukraine,5538357,0,19743
+1878,Europe,Belgium,4797108,0,9230
+1881,Europe,Czechia,4641335,0,1426
+1884,Europe,Switzerland,4404327,0,4109
+1887,Europe,Romania,3397365,0,7241
+1888,Europe,Denmark,3181366,0,786
+1890,Europe,Sweden,2708137,0,3245
+1891,Europe,Serbia,2538899,0,5230
+1895,Europe,Hungary,2202179,0,3472
+1897,Europe,Slovakia,1866647,0,335
+1900,Europe,Ireland,1711233,0,2300
+1902,Europe,Norway,1483639,0,474
+1903,Europe,Finland,1477021,0,4607
+1905,Europe,Slovenia,1343626,0,8520
+1906,Europe,Lithuania,1319481,0,1431
+1907,Europe,Bulgaria,1306103,0,2129
+1909,Europe,Croatia,1273508,0,383
+1922,Europe,Belarus,994037,0,1327
+1923,Europe,Latvia,977833,0,194
+1934,Europe,Moldova,620419,0,104164
+1935,Europe,Estonia,618218,0,90227
+1944,Europe,Bosnia and Herzegovina,402890,0,7467
+1946,Europe,North Macedonia,348215,0,1471
+1949,Europe,Albania,334726,0,1696
+1951,Europe,Luxembourg,319959,0,2037
+1953,Europe,Montenegro,291820,0,583
+1962,Europe,Iceland,209191,0,-1
+1975,Europe,Malta,118574,0,588
+1978,Europe,Channel Islands,101717,0,168
+2000,Europe,Andorra,48015,0,287
+2010,Europe,Isle of Man,38008,0,-1
+2012,Europe,Faeroe Islands,34658,0,-1
+2022,Europe,San Marino,24247,0,24
+2025,Europe,Liechtenstein,21437,0,1
+2026,Europe,Gibraltar,20550,0,3858
+2035,Europe,Monaco,16760,0,701
+2075,Europe,Vatican City,29,0,0
+2082,Europe,France,40045596,0,85269
+2083,Europe,Germany,38418899,0,25565
+2087,Europe,Italy,25828252,0,126475
+2088,Europe,UK,24569895,0,1004
+2089,Europe,Russia,22900755,0,178807
+2091,Europe,Spain,13845825,0,43847
+2096,Europe,Netherlands,8610372,0,0
+2100,Europe,Poland,6515598,0,1060073
+2102,Europe,Austria,6072229,0,6932
+2103,Europe,Greece,6025776,0,6199
+2104,Europe,Portugal,5582987,0,2195
+2105,Europe,Ukraine,5538357,0,19743
+2109,Europe,Belgium,4797108,0,9230
+2112,Europe,Czechia,4641335,0,1426
+2115,Europe,Switzerland,4404327,0,4109
+2118,Europe,Romania,3397365,0,7241
+2119,Europe,Denmark,3181366,0,786
+2121,Europe,Sweden,2708137,0,3245
+2122,Europe,Serbia,2538899,0,5230
+2126,Europe,Hungary,2202179,0,3472
+2128,Europe,Slovakia,1866647,0,335
+2131,Europe,Ireland,1711233,0,2300
+2133,Europe,Norway,1483639,0,474
+2134,Europe,Finland,1477021,0,4607
+2136,Europe,Slovenia,1343626,0,8520
+2137,Europe,Lithuania,1319481,0,1431
+2138,Europe,Bulgaria,1306103,0,2129
+2140,Europe,Croatia,1273508,0,383
+2153,Europe,Belarus,994037,0,1327
+2154,Europe,Latvia,977833,0,194
+2165,Europe,Moldova,620419,0,104164
+2166,Europe,Estonia,618218,0,90227
+2175,Europe,Bosnia and Herzegovina,402890,0,7467
+2177,Europe,North Macedonia,348215,0,1471
+2180,Europe,Albania,334726,0,1696
+2182,Europe,Luxembourg,319959,0,2037
+2184,Europe,Montenegro,291820,0,583
+2193,Europe,Iceland,209191,0,-1
+2206,Europe,Malta,118574,0,588
+2209,Europe,Channel Islands,101717,0,168
+2231,Europe,Andorra,48015,0,287
+2241,Europe,Isle of Man,38008,0,-1
+2243,Europe,Faeroe Islands,34658,0,-1
+2253,Europe,San Marino,24247,0,24
+2256,Europe,Liechtenstein,21437,0,1
+2257,Europe,Gibraltar,20550,0,3858
+2266,Europe,Monaco,16760,0,701
+2306,Europe,Vatican City,29,0,0
+2313,Europe,France,40045596,0,85269
+2314,Europe,Germany,38418899,0,25565
+2318,Europe,Italy,25828252,0,126475
+2319,Europe,UK,24569895,0,1004
+2320,Europe,Russia,22900755,0,178807
+2322,Europe,Spain,13845825,0,43847
+2327,Europe,Netherlands,8610372,0,0
+2331,Europe,Poland,6515598,0,1060073
+2333,Europe,Austria,6072229,0,6932
+2334,Europe,Greece,6025776,0,6199
+2335,Europe,Portugal,5582987,0,2195
+2336,Europe,Ukraine,5538357,0,19743
+2340,Europe,Belgium,4797108,0,9230
+2343,Europe,Czechia,4641335,0,1426
+2346,Europe,Switzerland,4404327,0,4109
+2349,Europe,Romania,3397365,0,7241
+2350,Europe,Denmark,3181366,0,786
+2352,Europe,Sweden,2708137,0,3245
+2353,Europe,Serbia,2538899,0,5230
+2357,Europe,Hungary,2202179,0,3472
+2359,Europe,Slovakia,1866647,0,335
+2362,Europe,Ireland,1711233,0,2300
+2364,Europe,Norway,1483639,0,474
+2365,Europe,Finland,1477021,0,4607
+2367,Europe,Slovenia,1343626,0,8520
+2368,Europe,Lithuania,1319481,0,1431
+2369,Europe,Bulgaria,1306103,0,2129
+2371,Europe,Croatia,1273508,0,383
+2384,Europe,Belarus,994037,0,1327
+2385,Europe,Latvia,977833,0,194
+2396,Europe,Moldova,620419,0,104164
+2397,Europe,Estonia,618218,0,90227
+2406,Europe,Bosnia and Herzegovina,402890,0,7467
+2408,Europe,North Macedonia,348215,0,1471
+2411,Europe,Albania,334726,0,1696
+2413,Europe,Luxembourg,319959,0,2037
+2415,Europe,Montenegro,291820,0,583
+2424,Europe,Iceland,209191,0,-1
+2437,Europe,Malta,118574,0,588
+2440,Europe,Channel Islands,101717,0,168
+2462,Europe,Andorra,48015,0,287
+2472,Europe,Isle of Man,38008,0,-1
+2474,Europe,Faeroe Islands,34658,0,-1
+2484,Europe,San Marino,24247,0,24
+2487,Europe,Liechtenstein,21437,0,1
+2488,Europe,Gibraltar,20550,0,3858
+2497,Europe,Monaco,16760,0,701
+2537,Europe,Vatican City,29,0,0
+2544,Europe,France,40045596,0,85269
+2545,Europe,Germany,38418899,0,25565
+2549,Europe,Italy,25828252,0,126475
+2550,Europe,UK,24569895,0,1004
+2551,Europe,Russia,22900755,0,178807
+2553,Europe,Spain,13845825,0,43847
+2558,Europe,Netherlands,8610372,0,0
+2562,Europe,Poland,6515598,0,1060073
+2564,Europe,Austria,6072229,0,6932
+2565,Europe,Greece,6025776,0,6199
+2566,Europe,Portugal,5582987,0,2195
+2567,Europe,Ukraine,5538357,0,19743
+2571,Europe,Belgium,4797108,0,9230
+2574,Europe,Czechia,4641335,0,1426
+2577,Europe,Switzerland,4404327,0,4109
+2580,Europe,Romania,3397365,0,7241
+2581,Europe,Denmark,3181366,0,786
+2583,Europe,Sweden,2708137,0,3245
+2584,Europe,Serbia,2538899,0,5230
+2588,Europe,Hungary,2202179,0,3472
+2590,Europe,Slovakia,1866647,0,335
+2593,Europe,Ireland,1711233,0,2300
+2595,Europe,Norway,1483639,0,474
+2596,Europe,Finland,1477021,0,4607
+2598,Europe,Slovenia,1343626,0,8520
+2599,Europe,Lithuania,1319481,0,1431
+2600,Europe,Bulgaria,1306103,0,2129
+2602,Europe,Croatia,1273508,0,383
+2615,Europe,Belarus,994037,0,1327
+2616,Europe,Latvia,977833,0,194
+2627,Europe,Moldova,620419,0,104164
+2628,Europe,Estonia,618218,0,90227
+2637,Europe,Bosnia and Herzegovina,402890,0,7467
+2639,Europe,North Macedonia,348215,0,1471
+2642,Europe,Albania,334726,0,1696
+2644,Europe,Luxembourg,319959,0,2037
+2646,Europe,Montenegro,291820,0,583
+2655,Europe,Iceland,209191,0,-1
+2668,Europe,Malta,118574,0,588
+2671,Europe,Channel Islands,101717,0,168
+2693,Europe,Andorra,48015,0,287
+2703,Europe,Isle of Man,38008,0,-1
+2705,Europe,Faeroe Islands,34658,0,-1
+2715,Europe,San Marino,24247,0,24
+2718,Europe,Liechtenstein,21437,0,1
+2719,Europe,Gibraltar,20550,0,3858
+2728,Europe,Monaco,16760,0,701
+2768,Europe,Vatican City,29,0,0
+2775,Europe,France,40045596,0,85269
+2776,Europe,Germany,38418899,0,25565
+2780,Europe,Italy,25828252,0,126475
+2781,Europe,UK,24569895,0,1004
+2782,Europe,Russia,22900755,0,178807
+2784,Europe,Spain,13845825,0,43847
+2789,Europe,Netherlands,8610372,0,0
+2793,Europe,Poland,6515598,0,1060073
+2795,Europe,Austria,6072229,0,6932
+2796,Europe,Greece,6025776,0,6199
+2797,Europe,Portugal,5582987,0,2195
+2798,Europe,Ukraine,5538357,0,19743
+2802,Europe,Belgium,4797108,0,9230
+2805,Europe,Czechia,4641335,0,1426
+2808,Europe,Switzerland,4404327,0,4109
+2811,Europe,Romania,3397365,0,7241
+2812,Europe,Denmark,3181366,0,786
+2814,Europe,Sweden,2708137,0,3245
+2815,Europe,Serbia,2538899,0,5230
+2819,Europe,Hungary,2202179,0,3472
+2821,Europe,Slovakia,1866647,0,335
+2824,Europe,Ireland,1711233,0,2300
+2826,Europe,Norway,1483639,0,474
+2827,Europe,Finland,1477021,0,4607
+2829,Europe,Slovenia,1343626,0,8520
+2830,Europe,Lithuania,1319481,0,1431
+2831,Europe,Bulgaria,1306103,0,2129
+2833,Europe,Croatia,1273508,0,383
+2846,Europe,Belarus,994037,0,1327
+2847,Europe,Latvia,977833,0,194
+2858,Europe,Moldova,620419,0,104164
+2859,Europe,Estonia,618218,0,90227
+2868,Europe,Bosnia and Herzegovina,402890,0,7467
+2870,Europe,North Macedonia,348215,0,1471
+2873,Europe,Albania,334726,0,1696
+2875,Europe,Luxembourg,319959,0,2037
+2877,Europe,Montenegro,291820,0,583
+2886,Europe,Iceland,209191,0,-1
+2899,Europe,Malta,118574,0,588
+2902,Europe,Channel Islands,101717,0,168
+2924,Europe,Andorra,48015,0,287
+2934,Europe,Isle of Man,38008,0,-1
+2936,Europe,Faeroe Islands,34658,0,-1
+2946,Europe,San Marino,24247,0,24
+2949,Europe,Liechtenstein,21437,0,1
+2950,Europe,Gib
